@@ -1,8 +1,27 @@
-import json
+import json, random, string
 
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse, HttpResponseBadRequest
 from caching.models import Report
+
+hrefs_collected = set()
+def collect_data(request):
+	if request.method != 'POST':
+		return HttpResponseBadRequest('''This endpoint only accepts POST requests. \
+			\rTry again with a JSON payload.''')
+	
+	body = json.loads(request.body)
+	href = body['href']
+
+	if href not in hrefs_collected:
+		filename = ''.join(random.choices(string.ascii_uppercase + string.digits, k=15))
+		filename += '.json'
+		with open(filename, 'w') as f:
+			json.dump(body, f)
+		hrefs_collected.add(href)
+
+	results = get_inference('', '')
+	return JsonResponse(results)
 
 # Create your views here.
 def generate_report(request):
