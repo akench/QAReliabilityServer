@@ -1,0 +1,39 @@
+{
+    "href": "https://brainly.com/question/995854",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "The Science Club went on a two-day field trip. The first day the members paid $60 for transportation plus $15 per ticket to the planetarium. The second day they paid $95 for transportation plus $12 per ticket to the geology museum. Write an expression to represent the total cost for two days for the n members of the club. \nThank you so much!",
+        "subject": "Mathematics",
+        "date": "1455825794",
+        "all_answers": [{
+            "question": "The Science Club went on a two-day field trip. The first day the members paid $60 for transportation plus $15 per ticket to the planetarium. The second day they paid $95 for transportation plus $12 per ticket to the geology museum. Write an expression to represent the total cost for two days for the n members of the club. \nThank you so much!",
+            "subject": "Mathematics",
+            "text": "day 1 total $60+$15=$75\nday 2 total $95+$12=$107\ntotal 2 days = $181",
+            "rating": 4,
+            "reputation": "Beginner",
+            "num_upvotes": 3,
+            "num_thanks": 7
+        }],
+        "top_answer": {
+            "question": "The Science Club went on a two-day field trip. The first day the members paid $60 for transportation plus $15 per ticket to the planetarium. The second day they paid $95 for transportation plus $12 per ticket to the geology museum. Write an expression to represent the total cost for two days for the n members of the club. \nThank you so much!",
+            "subject": "Mathematics",
+            "text": "day 1 total $60+$15=$75\nday 2 total $95+$12=$107\ntotal 2 days = $181",
+            "rating": 4,
+            "reputation": "Beginner",
+            "num_upvotes": 3,
+            "num_thanks": 7
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

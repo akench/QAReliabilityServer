@@ -14,7 +14,10 @@ def collect_data(request):
 	href = body['href']
 
 	if href not in hrefs_collected:
-		filename = ''.join(random.choices(string.ascii_uppercase + string.digits, k=15))
+		# Create the filename from the first ten words of the question
+		filename = 'collection/'
+		filename += '_'.join(body['brainly_data']['question'].split(maxsplit=10)[:10])
+		# filename = ''.join(random.choices(string.ascii_uppercase + string.digits, k=15))
 		filename += '.json'
 		with open(filename, 'w') as f:
 			json.dump(body, f)

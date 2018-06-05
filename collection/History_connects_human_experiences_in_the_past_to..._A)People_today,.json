@@ -1,0 +1,39 @@
+{
+    "href": "https://brainly.com/question/9929933",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "History connects human experiences in the past to...\nA)People today, and people who will come later. \nB)Their solutions.\nC)Other countries' experiences in the past.\nD)The future.",
+        "subject": "History",
+        "date": "1525271611",
+        "all_answers": [{
+            "question": "History connects human experiences in the past to...\nA)People today, and people who will come later. \nB)Their solutions.\nC)Other countries' experiences in the past.\nD)The future.",
+            "subject": "History",
+            "text": "I'll say A im not 100% sure but I think it's A",
+            "rating": 5,
+            "reputation": "Virtuoso",
+            "num_upvotes": 6,
+            "num_thanks": 2
+        }],
+        "top_answer": {
+            "question": "History connects human experiences in the past to...\nA)People today, and people who will come later. \nB)Their solutions.\nC)Other countries' experiences in the past.\nD)The future.",
+            "subject": "History",
+            "text": "I'll say A im not 100% sure but I think it's A",
+            "rating": 5,
+            "reputation": "Virtuoso",
+            "num_upvotes": 6,
+            "num_thanks": 2
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

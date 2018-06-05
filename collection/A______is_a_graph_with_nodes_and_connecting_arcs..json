@@ -1,0 +1,47 @@
+{
+    "href": "https://brainly.com/question/8798105",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "A ____ is a graph with nodes and connecting arcs. neural network connection architecture semantic net knowledge scheme",
+        "subject": "Computers and technology",
+        "date": "1518986813",
+        "all_answers": [{
+            "question": "A ____ is a graph with nodes and connecting arcs. neural network connection architecture semantic net knowledge scheme",
+            "subject": "Computers and technology",
+            "text": "Semantic Nets \nshould be the answer",
+            "rating": 5,
+            "reputation": "Helping Hand",
+            "num_upvotes": 1,
+            "num_thanks": 1
+        }, {
+            "question": "A ____ is a graph with nodes and connecting arcs. neural network connection architecture semantic net knowledge scheme",
+            "subject": "Computers and technology",
+            "text": "Semantic network I think is your answer.",
+            "rating": 1,
+            "reputation": "Ambitious",
+            "num_upvotes": 1,
+            "num_thanks": 1
+        }],
+        "top_answer": {
+            "question": "A ____ is a graph with nodes and connecting arcs. neural network connection architecture semantic net knowledge scheme",
+            "subject": "Computers and technology",
+            "text": "Semantic Nets \nshould be the answer",
+            "rating": 5,
+            "reputation": "Helping Hand",
+            "num_upvotes": 1,
+            "num_thanks": 1
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

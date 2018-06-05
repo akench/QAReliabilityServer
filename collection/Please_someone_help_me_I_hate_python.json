@@ -1,0 +1,39 @@
+{
+    "href": "https://brainly.com/question/7485605",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "Please someone help me I hate python",
+        "subject": "Computers and technology",
+        "date": "1512417554",
+        "all_answers": [{
+            "question": "Please someone help me I hate python",
+            "subject": "Computers and technology",
+            "text": "Python is actually an easy language to learn and use. IDLE is an iffy IDE to use. One thing about IDLE that drives me nuts is that when it saves a file, it converts tabs to spaces (you can adjust how many in the prefs). This causes impossible to find indentation errors because several spaces are NOT the same as a tab, but you can't see the difference on the screen.\n\n# the standard way to put the main function after declaring functions and\n# classes\nif( __name__ == \"__main__\" ):\n\nimport sys\n# check that the program was called with the correct number of arguments\nif( len( sys.argv ) != 2 ):\n\u00a0\u00a0\u00a0 sys.stderr.write( \"\\nusage:\u00a0 %s <argument>\\n\" % ( sys.argv[ 0 ] ) )\n\u00a0\u00a0\u00a0 sys.exit( 1 )\nelse:\n\u00a0\u00a0\u00a0 # do something nifty\n\u00a0\u00a0\u00a0 sys.exit( 0 )\n\n\n",
+            "rating": 0,
+            "reputation": "Ambitious",
+            "num_upvotes": 0,
+            "num_thanks": 1
+        }],
+        "top_answer": {
+            "question": "Please someone help me I hate python",
+            "subject": "Computers and technology",
+            "text": "Python is actually an easy language to learn and use. IDLE is an iffy IDE to use. One thing about IDLE that drives me nuts is that when it saves a file, it converts tabs to spaces (you can adjust how many in the prefs). This causes impossible to find indentation errors because several spaces are NOT the same as a tab, but you can't see the difference on the screen.\n\n# the standard way to put the main function after declaring functions and\n# classes\nif( __name__ == \"__main__\" ):\n\nimport sys\n# check that the program was called with the correct number of arguments\nif( len( sys.argv ) != 2 ):\n\u00a0\u00a0\u00a0 sys.stderr.write( \"\\nusage:\u00a0 %s <argument>\\n\" % ( sys.argv[ 0 ] ) )\n\u00a0\u00a0\u00a0 sys.exit( 1 )\nelse:\n\u00a0\u00a0\u00a0 # do something nifty\n\u00a0\u00a0\u00a0 sys.exit( 0 )\n\n\n",
+            "rating": 0,
+            "reputation": "Ambitious",
+            "num_upvotes": 0,
+            "num_thanks": 1
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

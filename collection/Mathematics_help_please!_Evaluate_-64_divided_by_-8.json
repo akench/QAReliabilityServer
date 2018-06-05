@@ -1,0 +1,47 @@
+{
+    "href": "https://brainly.com/question/9796572",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "Mathematics help please!\n\nEvaluate -64 divided by -8",
+        "subject": "Mathematics",
+        "date": "1524590370",
+        "all_answers": [{
+            "question": "Mathematics help please!\n\nEvaluate -64 divided by -8",
+            "subject": "Mathematics",
+            "text": "Hi,\n-64/-8\n+64/+8\n+8\nHope this helps you.\n",
+            "rating": 5,
+            "reputation": "Virtuoso",
+            "num_upvotes": 3,
+            "num_thanks": 2
+        }, {
+            "question": "Mathematics help please!\n\nEvaluate -64 divided by -8",
+            "subject": "Mathematics",
+            "text": "6 negative plus negitive is positive",
+            "rating": 3,
+            "reputation": "Beginner",
+            "num_upvotes": 1,
+            "num_thanks": 2
+        }],
+        "top_answer": {
+            "question": "Mathematics help please!\n\nEvaluate -64 divided by -8",
+            "subject": "Mathematics",
+            "text": "Hi,\n-64/-8\n+64/+8\n+8\nHope this helps you.\n",
+            "rating": 5,
+            "reputation": "Virtuoso",
+            "num_upvotes": 3,
+            "num_thanks": 2
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

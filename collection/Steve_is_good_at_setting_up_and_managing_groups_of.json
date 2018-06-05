@@ -1,0 +1,39 @@
+{
+    "href": "https://brainly.com/question/3677979",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "Steve is good at setting up and managing groups of computers for large cities. In which Information Technology career pathway is he most likely to get a job? Information Support \nProgramming Development \nInteractive Media \nNetwork Systems",
+        "subject": "Business",
+        "date": "1494289339",
+        "all_answers": [{
+            "question": "Steve is good at setting up and managing groups of computers for large cities. In which Information Technology career pathway is he most likely to get a job? Information Support \nProgramming Development \nInteractive Media \nNetwork Systems",
+            "subject": "Business",
+            "text": "Interactive media would be most suitable for Steve as he would be exposed to a\u00a0wide variety of hands on media production.",
+            "rating": 5,
+            "reputation": "Helping Hand",
+            "num_upvotes": 3,
+            "num_thanks": 8
+        }],
+        "top_answer": {
+            "question": "Steve is good at setting up and managing groups of computers for large cities. In which Information Technology career pathway is he most likely to get a job? Information Support \nProgramming Development \nInteractive Media \nNetwork Systems",
+            "subject": "Business",
+            "text": "Interactive media would be most suitable for Steve as he would be exposed to a\u00a0wide variety of hands on media production.",
+            "rating": 5,
+            "reputation": "Helping Hand",
+            "num_upvotes": 3,
+            "num_thanks": 8
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

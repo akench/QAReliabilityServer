@@ -1,0 +1,39 @@
+{
+    "href": "https://brainly.com/question/10368934",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "I don't understand. Please help answer questions!!!!!!",
+        "subject": "Mathematics",
+        "date": "1528076987",
+        "all_answers": [{
+            "question": "I don't understand. Please help answer questions!!!!!!",
+            "subject": "Mathematics",
+            "text": "16) yes, they are reflections on a summit.\n17) no parallelogram shown to answer question\u00a0",
+            "rating": 0,
+            "reputation": "Beginner",
+            "num_upvotes": 0,
+            "num_thanks": 0
+        }],
+        "top_answer": {
+            "question": "I don't understand. Please help answer questions!!!!!!",
+            "subject": "Mathematics",
+            "text": "16) yes, they are reflections on a summit.\n17) no parallelogram shown to answer question\u00a0",
+            "rating": 0,
+            "reputation": "Beginner",
+            "num_upvotes": 0,
+            "num_thanks": 0
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "href": "https://brainly.com/question/10368742",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "PLEASE I NEED HELP\n\n\nwhat is the equation of the circle with center (-4 -3) that passes through the point (6,2)",
+        "subject": "Mathematics",
+        "date": "1528073055",
+        "all_answers": [{
+            "question": "PLEASE I NEED HELP\n\n\nwhat is the equation of the circle with center (-4 -3) that passes through the point (6,2)",
+            "subject": "Mathematics",
+            "text": "The general equation of the circle is:\n\n\n\n(h,k) is the center of the circle and r is the radius. We are given the coordinates of the center. So we can write the equation of the circle as:\n\n\n\nIn order to complete the equation, we need the radius of the circle. Using the given point we can find the radius. Using the point in the above equation, we get:\n\n\n\nThus the value of r\u00b2 is 125. Using the value in equation of the circle, we get:\n\n\n\nThe radius of the circle is\u00a0\u221a125.",
+            "rating": 0,
+            "reputation": "Ace",
+            "num_upvotes": 0,
+            "num_thanks": 0
+        }, {
+            "question": "PLEASE I NEED HELP\n\n\nwhat is the equation of the circle with center (-4 -3) that passes through the point (6,2)",
+            "subject": "Mathematics",
+            "text": "The equation for a circle in standard form is .\u00a0 We have the center, so we have the h and the k, and we have a point, so we have the x and the y.\u00a0 Let's fill in accordingly and simplify. .\u00a0 Solving for , we get that ,\u00a0 Now we can use the info given plus our newly found radius and write the equation.\u00a0 ",
+            "rating": 0,
+            "reputation": "Virtuoso",
+            "num_upvotes": 0,
+            "num_thanks": 0
+        }],
+        "top_answer": {
+            "question": "PLEASE I NEED HELP\n\n\nwhat is the equation of the circle with center (-4 -3) that passes through the point (6,2)",
+            "subject": "Mathematics",
+            "text": "The general equation of the circle is:\n\n\n\n(h,k) is the center of the circle and r is the radius. We are given the coordinates of the center. So we can write the equation of the circle as:\n\n\n\nIn order to complete the equation, we need the radius of the circle. Using the given point we can find the radius. Using the point in the above equation, we get:\n\n\n\nThus the value of r\u00b2 is 125. Using the value in equation of the circle, we get:\n\n\n\nThe radius of the circle is\u00a0\u221a125.",
+            "rating": 0,
+            "reputation": "Ace",
+            "num_upvotes": 0,
+            "num_thanks": 0
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "href": "https://brainly.com/question/9950",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "Sorry this is soc.st i couldn't find science. \n1. Current needs to flow through a connector such as ______________.\n",
+        "subject": "Social studies",
+        "date": "1392157183",
+        "all_answers": [{
+            "question": "Sorry this is soc.st i couldn't find science. \n1. Current needs to flow through a connector such as ______________.\n",
+            "subject": "Social studies",
+            "text": "a conductor would be copper and pretty much any metal",
+            "rating": 4,
+            "reputation": "Beginner",
+            "num_upvotes": 3,
+            "num_thanks": 7
+        }],
+        "top_answer": {
+            "question": "Sorry this is soc.st i couldn't find science. \n1. Current needs to flow through a connector such as ______________.\n",
+            "subject": "Social studies",
+            "text": "a conductor would be copper and pretty much any metal",
+            "rating": 4,
+            "reputation": "Beginner",
+            "num_upvotes": 3,
+            "num_thanks": 7
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

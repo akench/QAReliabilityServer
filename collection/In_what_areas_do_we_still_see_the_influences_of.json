@@ -1,0 +1,39 @@
+{
+    "href": "https://brainly.com/question/953098",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "In what areas do we still see the influences of early Greek culture?\na.) science and mathematics\nb.) arts and architecture\nc.) philosophy\nd.) all of these areas",
+        "subject": "English",
+        "date": "1454686731",
+        "all_answers": [{
+            "question": "In what areas do we still see the influences of early Greek culture?\na.) science and mathematics\nb.) arts and architecture\nc.) philosophy\nd.) all of these areas",
+            "subject": "English",
+            "text": "I'd say D would be the correct answer, considering that all of the things listed are still influenced by early greek culture, especially philosophy, architecture, and math",
+            "rating": 4,
+            "reputation": "Ambitious",
+            "num_upvotes": 12,
+            "num_thanks": 28
+        }],
+        "top_answer": {
+            "question": "In what areas do we still see the influences of early Greek culture?\na.) science and mathematics\nb.) arts and architecture\nc.) philosophy\nd.) all of these areas",
+            "subject": "English",
+            "text": "I'd say D would be the correct answer, considering that all of the things listed are still influenced by early greek culture, especially philosophy, architecture, and math",
+            "rating": 4,
+            "reputation": "Ambitious",
+            "num_upvotes": 12,
+            "num_thanks": 28
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com/question/953098",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20161204114341/http://brainly.com:80/question/953098",
+                "timestamp": "20161204114341"
+            }
+        }
+    }
+}

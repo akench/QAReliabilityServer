@@ -1,0 +1,47 @@
+{
+    "href": "https://brainly.com/question/9931500",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "Which two statements accurately describe the early history of lyric poetry?",
+        "subject": "English",
+        "date": "1525278707",
+        "all_answers": [{
+            "question": "Which two statements accurately describe the early history of lyric poetry?",
+            "subject": "English",
+            "text": "A&C for platooooooooooo",
+            "rating": 4,
+            "reputation": "Ambitious",
+            "num_upvotes": 3,
+            "num_thanks": 2
+        }, {
+            "question": "Which two statements accurately describe the early history of lyric poetry?",
+            "subject": "English",
+            "text": "yea there right it is a and c",
+            "rating": 4,
+            "reputation": "Ambitious",
+            "num_upvotes": 1,
+            "num_thanks": 1
+        }],
+        "top_answer": {
+            "question": "Which two statements accurately describe the early history of lyric poetry?",
+            "subject": "English",
+            "text": "A&C for platooooooooooo",
+            "rating": 4,
+            "reputation": "Ambitious",
+            "num_upvotes": 3,
+            "num_thanks": 2
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

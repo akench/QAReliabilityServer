@@ -1,0 +1,39 @@
+{
+    "href": "https://brainly.com/question/1675477",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "The use of technology such as telephones and computers means that money exchanges and other financial transactions can be\na. sensitive to variations in any currency\nb. made instantaneously\nc. based on US dollars all over the world\nd. converted to prices in any currency",
+        "subject": "History",
+        "date": "1472638761",
+        "all_answers": [{
+            "question": "The use of technology such as telephones and computers means that money exchanges and other financial transactions can be\na. sensitive to variations in any currency\nb. made instantaneously\nc. based on US dollars all over the world\nd. converted to prices in any currency",
+            "subject": "History",
+            "text": "I think the correct answer from the choices listed above is option B. The use of technology such as telephones and computers means that money exchanges and other financial transactions can be made instantaneously. Transactions are much easier with these advancements.",
+            "rating": 1,
+            "reputation": "Ambitious",
+            "num_upvotes": 19,
+            "num_thanks": 9
+        }],
+        "top_answer": {
+            "question": "The use of technology such as telephones and computers means that money exchanges and other financial transactions can be\na. sensitive to variations in any currency\nb. made instantaneously\nc. based on US dollars all over the world\nd. converted to prices in any currency",
+            "subject": "History",
+            "text": "I think the correct answer from the choices listed above is option B. The use of technology such as telephones and computers means that money exchanges and other financial transactions can be made instantaneously. Transactions are much easier with these advancements.",
+            "rating": 1,
+            "reputation": "Ambitious",
+            "num_upvotes": 19,
+            "num_thanks": 9
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com/question/1675477",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20161209150121/http://brainly.com:80/question/1675477",
+                "timestamp": "20161209150121"
+            }
+        }
+    }
+}

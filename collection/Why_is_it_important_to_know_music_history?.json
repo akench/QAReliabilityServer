@@ -1,0 +1,50 @@
+{
+    "href": "https://brainly.com/question/9955555",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "Why is it important to know music history?",
+        "subject": "Arts",
+        "date": "1525389175",
+        "all_answers": [
+            {
+                "question": "Why is it important to know music history?",
+                "subject": "Arts",
+                "text": "It\u2019s not!!!!!!!!!!!!!!!!!",
+                "rating": 0,
+                "reputation": "Beginner",
+                "num_upvotes": 0,
+                "num_thanks": 1
+            },
+            {
+                "question": "Why is it important to know music history?",
+                "subject": "Arts",
+                "text": "Truly successful musicians understand all their music because they worked hard at becoming terrifically well-rounded. ... It's time to stop treating music history as a list of dead composers and understand how much we can learn from it",
+                "rating": 0,
+                "reputation": "",
+                "num_upvotes": 0,
+                "num_thanks": 2
+            }
+        ],
+        "top_answer": {
+            "question": "Why is it important to know music history?",
+            "subject": "Arts",
+            "text": "It\u2019s not!!!!!!!!!!!!!!!!!",
+            "rating": 0,
+            "reputation": "Beginner",
+            "num_upvotes": 0,
+            "num_thanks": 1
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}

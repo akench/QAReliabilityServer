@@ -1,0 +1,47 @@
+{
+    "href": "https://brainly.com/question/9932162",
+    "domain": "brainly.com",
+    "source": "com",
+    "brainly_data": {
+        "question": "Glenn has a family history of diabetes. Which lifestyle change should he adopt to lower his chances of developing diabetes? Avoid sugar and sugar products and undergo regular medical tests every month. Exercise for 30 minutes every day and eat nutritious meals that are low in sugar and saturated fats. Exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietarysupplements.",
+        "subject": "Health",
+        "date": "1525281727",
+        "all_answers": [{
+            "question": "Glenn has a family history of diabetes. Which lifestyle change should he adopt to lower his chances of developing diabetes? Avoid sugar and sugar products and undergo regular medical tests every month. Exercise for 30 minutes every day and eat nutritious meals that are low in sugar and saturated fats. Exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietarysupplements.",
+            "subject": "Health",
+            "text": "He should exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietary supplements. \n",
+            "rating": 1,
+            "reputation": "Beginner",
+            "num_upvotes": 1,
+            "num_thanks": 0
+        }, {
+            "question": "Glenn has a family history of diabetes. Which lifestyle change should he adopt to lower his chances of developing diabetes? Avoid sugar and sugar products and undergo regular medical tests every month. Exercise for 30 minutes every day and eat nutritious meals that are low in sugar and saturated fats. Exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietarysupplements.",
+            "subject": "Health",
+            "text": "The last one is the correct answer :)",
+            "rating": 5,
+            "reputation": "Beginner",
+            "num_upvotes": 1,
+            "num_thanks": 0
+        }],
+        "top_answer": {
+            "question": "Glenn has a family history of diabetes. Which lifestyle change should he adopt to lower his chances of developing diabetes? Avoid sugar and sugar products and undergo regular medical tests every month. Exercise for 30 minutes every day and eat nutritious meals that are low in sugar and saturated fats. Exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietarysupplements.",
+            "subject": "Health",
+            "text": "He should exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietary supplements. \n",
+            "rating": 1,
+            "reputation": "Beginner",
+            "num_upvotes": 1,
+            "num_thanks": 0
+        }
+    },
+    "availability": {
+        "url": "https://brainly.com",
+        "archived_snapshots": {
+            "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20180517140815/https://brainly.com/",
+                "timestamp": "20180517140815"
+            }
+        }
+    }
+}
