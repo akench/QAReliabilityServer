@@ -1,0 +1,1292 @@
+question,subject,text,rating,reputation,num_upvotes,num_thanks,href,question_timestamp
+"
+Choose the best answer to the following question using either y or en.
+
+
+
+Tu veux voire de limonade ?
+",French,"Tu veux boire de la lemonade?(citronnade)
+
+Oui j'EN veux
+
+Non,je n'EN veux pas
+
+",0,Expert,0,0,https://brainly.com/question/10322363,1527644080
+"
+Choose the best answer to the following question using either y or en.
+
+
+
+Tu veux voire de limonade ?
+",French,"Hi,Choose the best answer to the following question using either y or en.
+Tu veux boire de la limonade?
+
+Oui, j'en veux.
+
+Or : 
+
+Non, je n'en veux pas.
+
+
+",5,Ace,1,0,https://brainly.com/question/10322363,1527644080
+Which two statements accurately describe the early history of lyric poetry?,English,A&C for platooooooooooo,4,Ambitious,3,2,https://brainly.com/question/9931500,1525278707
+Which two statements accurately describe the early history of lyric poetry?,English,yea there right it is a and c,4,Ambitious,1,1,https://brainly.com/question/9931500,1525278707
+Please someone help me I hate python,Computers and technology,"Python is actually an easy language to learn and use. IDLE is an iffy IDE to use. One thing about IDLE that drives me nuts is that when it saves a file, it converts tabs to spaces (you can adjust how many in the prefs). This causes impossible to find indentation errors because several spaces are NOT the same as a tab, but you can't see the difference on the screen.
+
+# the standard way to put the main function after declaring functions and
+# classes
+if( __name__ == ""__main__"" ):
+
+import sys
+# check that the program was called with the correct number of arguments
+if( len( sys.argv ) != 2 ):
+    sys.stderr.write( ""\nusage:  %s <argument>\n"" % ( sys.argv[ 0 ] ) )
+    sys.exit( 1 )
+else:
+    # do something nifty
+    sys.exit( 0 )
+
+
+",0,Ambitious,0,1,https://brainly.com/question/7485605,1512417554
+Why were Chinese leaders concerned about U.N. forces invading North Korea?,History,They were worried that the enemys would invade them next.,3,Helping Hand,9,8,https://brainly.com/question/995310,1455814840
+"Under New Deal reforms, the biggest change to the traditional role of the federal government was
+
+a higher degree of government regulation of business and the economy.
+
+a lower degree of government regulation of business and the economy.
+
+decreased government support for private/public partnerships.
+
+increased government support of laissez-faire capitalism.",History,A higher degree of government regulation of business and the economy.Hopefully this helped you!,5,Ace,4,2,https://brainly.com/question/9910846,1525186847
+"Which sentence has a subject-verb agreement error?
+A)	Some of the collected speeches of Mr. Max Jones were published in one volume by his friends. 
+B)	Neither the coach nor his players knows whether or not this season will end in a championship ring or not.	
+C)	The doctors who mistakenly prescribed asthma medicine instead of antibiotics were successfully sued by all the victims.	
+D)	The many reasons for why Janice Shuster has been so successful are obvious to anyone with even a cursory knowledge of her life story",English,"B)	Neither the coach nor his players knows whether or not this season will end in a championship ring or not.
+
+The subject and verb don't agree in this statement, because the verb should be ""know"". It should read: 
+""Neither the coach nor his players know whether or not..."" ",5,Brainly Teacher,2,2,https://brainly.com/question/9608643,1523574974
+What impact did the atlantic slave trade have on the nations of the west african interior?,History,"Some African nations lost some ethnic groups to the slave trade as well as some African nations had in influx of white persons to ""civilize"" the countries.
+After the slave trade returning Africans created nations such as Liberia.
+",0,Beginner,0,0,https://brainly.com/question/10364695,1528008015
+"The use of technology such as telephones and computers means that money exchanges and other financial transactions can be
+a. sensitive to variations in any currency
+b. made instantaneously
+c. based on US dollars all over the world
+d. converted to prices in any currency",History,I think the correct answer from the choices listed above is option B. The use of technology such as telephones and computers means that money exchanges and other financial transactions can be made instantaneously. Transactions are much easier with these advancements.,1,Ambitious,19,9,https://brainly.com/question/1675477,1472638761
+"What is a tariff?
+A. tax on a business to increase revenue 
+B. tax on imports to protect local and national business 
+C. tax on exports from local businesses to make money 
+D. payment for purchase of means to produce goods",Business,A tariff is a tax on imports from other countries. ,5,Ambitious,2,5,https://brainly.com/question/998050,1455864813
+"What does this line of code in Python do?:
+for i in range 100:
+fd(200)
+rt(91)
+",Computers and technology,"Brainly User
+This line of code tells the ""turtle"" to move forward 200 pixels and right 91°, 100 times.
+Click to let others know, how helpful is it
+5.0
+1 vote
+
+THANKS
+2
+Report
+",5,Brainly User,1,2,https://brainly.com/question/953921,1454721408
+"The probabilities of contamination in medicine capsules from the presence of heavy metals and different types of microbes are given in the table. If capsule A shows microbial contamination, what is the chance that the contamination is from Salmonella?",Mathematics,"I might not be correct but I'm pretty
+0.31
+",3,Ambitious,6,6,https://brainly.com/question/9563916,1523364857
+"The probabilities of contamination in medicine capsules from the presence of heavy metals and different types of microbes are given in the table. If capsule A shows microbial contamination, what is the chance that the contamination is from Salmonella?",Mathematics,The answer should be 0.31,2,Helping Hand,6,5,https://brainly.com/question/9563916,1523364857
+"Question: The United States is composed of 50 states, each with its own state government, but only the U.S. Congress has the power to issue currency. Explain why it is important that state governments are not allowed to make and distribute their own money. Give specific examples and details to support your answer.
+
+The only part I need help with is why they don't have the power to issue their own? We are doing economics and are on the history of money. I appreciate any help I can get! Please dont leave the answer just help me because I need to come up with my own solution. 
+Thanks :)
+",Social studies,"Since the U.S.A is one country, one currency would allow the states to regulate each-other, whilst allowing trade to flow freely and easily. ",4,Ambitious,2,6,https://brainly.com/question/992255,1455767118
+The medicine capsule shown consists of a cylinder with a hemisphere at each end. The total length of the capsule is 15 millimeters. The diameter is 5 millimeters. Which choice is the best approximation of the total surface area of the capsule? Use 3.14 to approximate pi.,Mathematics,take it apart mentally cylinder+2hemispheres 2hemispheres=2half spheres=1 sphere 15=radius of sphere+legnth of cylinder+radius of spehre diameter=5 d/2=5/2=r 15=2.5+legnth+2.5 10=legnth of cylinder surface area of sphere=4pir^2 surface area of cylinder (not including bases) is pidh sphere radius=2.5 SA=4pi2.5^2 SA=4pi6.25 SA=25pi SA=78.5 sphere area SA=5pi10 SA=50pi SA=157 add them 78.5+157=235.5 mm^2,5,Ambitious,2,3,https://brainly.com/question/9313608,1521808533
+"Which of the following is NOT an example of barriers to entry?
+a.
+Cable companies must lay miles of underground cable before they can serve a single customer in a new market.
+b.
+In some counties, laws require retail stores to be closed on Sundays.
+c.
+An entrepreneur wishing to own a clothing store must rent a building, hire workers, and buy clothing for sale.
+d.
+A person who wishes to practice medicine is required to attend medical school, complete an internship, and pass a state exam.",History,"the answer is that in soome counties, laws require retail stores to be colsed on sundays ",5,Ambitious,3,3,https://brainly.com/question/9350363,1522085514
+"
+
+Species are disappearing at an accelerating rate through human action, primarily habitat destruction but also pollution and the introduction of exotic species into residual natural environments. I have said that a fifth or more of the species of plants and animals could vanish or be doomed to early extinction by the year 2020 unless better efforts are made to save them. . . . As the last forests are felled [destroyed] in forest strongholds like the Philippines and Ecuador, the decline of species will accelerate even more. In the world as a whole, extinction rates are already hundreds or thousands of times higher than before the coming of man. They cannot be balanced by new evolution in any period of time that has meaning for the human race.
+
+
+Why should we care? What difference does it make if some species are extinguished, if even half of all the species on earth disappear? Let me count the ways. New sources of scientific information will be lost. Vast potential biological wealth will be destroyed. Still undeveloped medicines, crops, pharmaceuticals, timber, fibers, pulp, soil-restoring vegetation, petroleum substitutes, and other products and amenities will never come to light. 
+
+
+Based on the excerpt, which statement best summarizes the author’s beliefs about the disappearing species?
+
+The loss of plant species and habitats will lead to widespread animal extinction.
+
+The loss of plant species and habitats will lead to environmental problems in remote regions.
+
+The loss of plant species and habitats will displace animals and decrease human wealth.
+
+The loss of plant species and habitats will devastate animals and hinder human progress.",English,"Hi! :)
+
+Answer: The loss of plant species and habitats will lead to widespread animal extinction.
+
+This tragedy and ongoing onslaught of human exploitation of the earth's resources could cause serious effects on our environment and the living organisms that thrive on these ecosystems and habitats.",5,Ambitious,3,3,https://brainly.com/question/9420221,1522455047
+How might your use of computers and knowledge of technology systems affect your personal and professional success?,Computers and technology,Amost all professions include theuse of computers. Knowing a lot about them and the way they work could help you use them when needed in a work environment. It would also make an employer more likely to hire you.,3,Helping Hand,1,8,https://brainly.com/question/769166,1447419524
+Converting Terminology via computers.. A. Cryptography . B. Technology . C. Geometry . D. Geology,Computers and technology,"converting terminology via computers is called : B. Technology
+
+Cryptography is the art of writing and solving code
+
+Geometry is one of the branches of math that focus on figures.
+
+Geology is study about the earth
+
+Hope this helps",3,Brainly Champion,8,14,https://brainly.com/question/1799640,1474369816
+"Read the excerpt from ""A Quilt of a Country.""
+
+The New York of my children is no more Balkanized, probably less so, than the Philadelphia of my father, in which Jewish boys would walk several blocks out of their way to avoid the Irish divide of Chester Avenue. (I was the product of a mixed marriage, across barely bridgeable lines: an Italian girl, an Irish boy. How quaint it seems now, how incendiary then.) The Brooklyn of Francie Nolan's famous tree, the Newark of which Portnoy complained, even the uninflected WASP suburbs of Cheever's characters: they are ghettos, pure and simple. Do the Cambodians and the Mexicans in California coexist less easily today than did the Irish and Italians of Massachusetts a century ago? You know the answer.
+
+What technique does Quindlen use to support the idea that America is less polarized now than it was in past history?
+
+
+A) facts and statistics
+B) neutral language
+C) quotations from other people
+D) vivid imagery﻿",English,Vivid imagery. I hope this helps.,5,Helping Hand,6,11,https://brainly.com/question/3897679,1495807057
+"When one says that e-commerce takes away the physical boundaries in doing business, it’s mostly referring to the actual business transaction – the buying and selling, not to the delivery of what was purchased if that is a physical product",Computers and technology,Do you have answer choices?,5,Helping Hand,1,0,https://brainly.com/question/9931072,1525276718
+"During the height of Muslim power, inventions included
+A.the astrolabe.
+B.mathematics.
+C.the thermometer.
+D.herbal medicine.",History,the answer would be B mathematics ,2,Beginner,3,2,https://brainly.com/question/932332,1454256295
+PLZ HELP ME SCIENCE PEA PLANTS,Biology,Inheritance is randomly chosen from the current gene pool. It's randomly decided whether offspring will receive certain types of traits from a certain parent. There are also dominant traits and recessive traits. Dominant traits are traits that overshadow recessive traits.,5,Frequent Answerer,2,2,https://brainly.com/question/9972038,1525474922
+"PLZ HELP ASAP!
+Read the excerpt from Fast Food Nation. 
+
+The labor practices of the fast food industry have their origins in the assembly line systems adopted by American manufacturers in the early twentieth century. Business historian Alfred D. Chandler has argued that a high rate of “throughput” was the most important aspect of these mass production systems. A factory’s throughput is the speed and volume of its flow—a much more crucial measurement, according to Chandler, than the number of workers it employs or the value of its machinery. 
+
+Which of the following choices best describes the evidence used in this excerpt? 
+A. An expert’s opinion provides historical background of an important concept.
+B. An expert’s viewpoint presents a counterclaim to the author’s argument.
+C. Statistical and factual evidence prove the author’s claim.
+D. Personal experience creates persuasive, emotional appeal.",English,A. An expert's opinion provides historical background of an important concept.,5,Ambitious,6,6,https://brainly.com/question/9971847,1525472359
+"Choose the best definition for the following term: substitution
+Which would it be?
+
+A) A letter that holds the place for some unknown value in mathematics
+B) A process where you must look for terms that have identical variable parts and then combine their coefficients
+C) A process where if two things are equal, one can be put in the place of the other and nothing will change
+D) Terms that have identical variable parts",Mathematics,The answer is a because you are substituting a number or something else . You are trying to hold a place for the unknown value or amount. Your welcome ☺️.,4,Beginner,8,14,https://brainly.com/question/986549,1455655230
+"Which plan was created by general Scott to defeat the confederacy 
+A. Merrimack plan
+B. Monitor plan
+C. Anaconda plan 
+D. Python plan",History,"The correct answer would be the ""Anaconda Plan""
+
+The Anaconda Plan was the Union's strategic plan to defeat the Confederacy at the start of the American Civil War. The goal was to defeat the rebellion by blockading southern ports and controlling the Mississippi river. This would cut off and isolate the south from the outside world. 
+",5,Ambitious,2,7,https://brainly.com/question/8840707,1519232319
+"Which plan was created by general Scott to defeat the confederacy 
+A. Merrimack plan
+B. Monitor plan
+C. Anaconda plan 
+D. Python plan",History,"The answer is C. the Anaconda plan, because the wraped around the confederates, then they pushed forword surrounding them. 
+
+Hoped this Helped xD",5,Ambitious,2,4,https://brainly.com/question/8840707,1519232319
+Glenn has a family history of diabetes. Which lifestyle change should he adopt to lower his chances of developing diabetes? Avoid sugar and sugar products and undergo regular medical tests every month. Exercise for 30 minutes every day and eat nutritious meals that are low in sugar and saturated fats. Exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietarysupplements.,Health,"He should exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietary supplements. 
+",1,Beginner,1,0,https://brainly.com/question/9932162,1525281727
+Glenn has a family history of diabetes. Which lifestyle change should he adopt to lower his chances of developing diabetes? Avoid sugar and sugar products and undergo regular medical tests every month. Exercise for 30 minutes every day and eat nutritious meals that are low in sugar and saturated fats. Exercise for 30 minutes every day and undergo regular medical tests every month. Eat nutritious meals that are low in sugar and saturated fats and take dietarysupplements.,Health,The last one is the correct answer :),5,Beginner,1,0,https://brainly.com/question/9932162,1525281727
+"The terms provided apply to what game?
+(Opening, Rank, File, fianchetto, and Sicilian?)
+A. Checkers
+B. American Football
+C. La-cross
+D. Chess
+E. Chinese Go. 
+F. Baseball
+G. Football
+",Arts,Those terms all apply to the game of chess.,3,Ambitious,3,4,https://brainly.com/question/999760,1455896451
+"The terms provided apply to what game?
+(Opening, Rank, File, fianchetto, and Sicilian?)
+A. Checkers
+B. American Football
+C. La-cross
+D. Chess
+E. Chinese Go. 
+F. Baseball
+G. Football
+",Arts,"Brainly User
+These terms apply to the game of CHESS.
+The terms mean different things from strategy to opening.
+Click to let others know, how helpful is it
+3.0
+2 votes
+
+THANKS
+2
+Comments (5+) Report
+See more comments
+Comment has been deleted
+
+no. like I said, it has been like 2 years since I last played. I did it for a class I was taking.
+I see.
+
+Comment has been deleted
+cool
+",3,Brainly User,2,2,https://brainly.com/question/999760,1455896451
+"An allusion can be reference to___.
+
+A) the bible
+B) mythology
+C) an important even in history
+D) all of these",English,"D) All of these. An allusion is a indirect or passing reference
+",5,Ambitious,2,3,https://brainly.com/question/995945,1455827619
+"1. Where is Valentina from
+2. How old is she 
+3. What business does her family own
+",Spanish,"Madrid, Spain
+14 years old
+A restaurant",3,Helping Hand,1,2,https://brainly.com/question/9914620,1525204600
+"1. Where is Valentina from
+2. How old is she 
+3. What business does her family own
+",Spanish,"Valentina is 14 years old, she is from Madrid, which is the capital of Spain, and her family runs a tapas restaurant. 
+",4,Ambitious,1,1,https://brainly.com/question/9914620,1525204600
+Which of the following is the most common use of mobile technology for small and medium businesses? Fleet management and service Delivery and pickup processes Managing sales and invoice data Social media and email marketing,Computers and technology,Social media and email marketing,5,Ambitious,1,1,https://brainly.com/question/9965002,1525431660
+"I NEED HELP RIGHT AWAY PLEASE!!!!!! 20 points
+Read the passage below about acupuncture. 
+
+Acupuncture is an alternative medicine that uses wire-thin needles inserted by a trained practitioner into specific points in the body. This ancient form of pain relief and stimulation is said to benefit patients by blocking channels which practitioners claim allow pain to travel within the body. This practice became more widely recognized and used after a New York Times reporter wrote in 1971 of a positive experience with it after surgery. 
+
+Those who doubt the effectiveness of this treatment for pain attribute the pain relief to a placebo effect: if a patient believes something will reduce their pain, they will experience some relief. The National Institutes of Health says that acupuncture relieves pain and reduces nausea and vomiting, although it is unclear how it works. The few adverse effects reported are due to improperly sterilized needles or improper delivery, making this still a fairly low risk option. For anyone considering acupuncture, they should first research its effectiveness for their specific condition. 
+
+-Summary of statements published by the National Institutes of Health
+
+After reading the passage about acupuncture, identify which statement supports the claim that acupuncture relieves pain.
+
+-It is ancient, alternative medicine that has been used for thousands of years.
+
+-If you do research, you can find the specific types of pain that acupuncture will effectively relieve.
+
+-A New York Times reporter wrote about the effectiveness of this treatment in relieving his surgery pain.
+
+-The National Institutes of Health found it effective in reducing pain and other symptoms, but it is not clear how it works.",Biology,"I believe it would be the last one since it is from the national institutes of heath, and that it the most reliable source.",3,Ambitious,2,2,https://brainly.com/question/9428176,1522527013
+"I NEED HELP RIGHT AWAY PLEASE!!!!!! 20 points
+Read the passage below about acupuncture. 
+
+Acupuncture is an alternative medicine that uses wire-thin needles inserted by a trained practitioner into specific points in the body. This ancient form of pain relief and stimulation is said to benefit patients by blocking channels which practitioners claim allow pain to travel within the body. This practice became more widely recognized and used after a New York Times reporter wrote in 1971 of a positive experience with it after surgery. 
+
+Those who doubt the effectiveness of this treatment for pain attribute the pain relief to a placebo effect: if a patient believes something will reduce their pain, they will experience some relief. The National Institutes of Health says that acupuncture relieves pain and reduces nausea and vomiting, although it is unclear how it works. The few adverse effects reported are due to improperly sterilized needles or improper delivery, making this still a fairly low risk option. For anyone considering acupuncture, they should first research its effectiveness for their specific condition. 
+
+-Summary of statements published by the National Institutes of Health
+
+After reading the passage about acupuncture, identify which statement supports the claim that acupuncture relieves pain.
+
+-It is ancient, alternative medicine that has been used for thousands of years.
+
+-If you do research, you can find the specific types of pain that acupuncture will effectively relieve.
+
+-A New York Times reporter wrote about the effectiveness of this treatment in relieving his surgery pain.
+
+-The National Institutes of Health found it effective in reducing pain and other symptoms, but it is not clear how it works.",Biology,"Brainly User
+i think the answer would be the last one
+Click to let others know, how helpful is it
+0.0
+0 votes
+
+THANKS
+1
+Comments Report
+
+",0,Brainly User,0,1,https://brainly.com/question/9428176,1522527013
+"I REALLY NEED HELP!!
+
+MEMO: Cuban military invaded Eastern Mexico in a surprise attack. Cuba intends to gain territory and control of passage into the Gulf of Mexico. We need your recommendation as soon as possible.
+
+To: President of the United States of America 
+Subject: Attack on Mexico 
+(This introductory paragraph should quickly explain the purpose of the memo. It should have at least five complete sentences that answer these questions: What international organizations could be contacted about this conflict? Why would you contact them?)
+
+(This second paragraph should address the action you recommend. It should have at least five complete sentences that answer these questions: How would you respond to the situation? Where would your response fall on the foreign policy spectrum? How does a conflict from history support your planned response?)
+
+This needs to include:
+-an international organization to contact and why
+-a strategy from the foreign policy spectrum you would use and why
+-a time in history that resembles your m=planned response.
+
+Someone, please help me I need this done quickly and I really need help!!",History,"he Military history of Cuba begins with the island's conquest by the Spanish and its battles afterward to gain its independence. Since the Communist takeover by Fidel Castro in 1959, Cuba has been involved with many major conflicts of the Cold War in Africa and Latin America where it had supported Marxist governments and rebels from liberation movements who were opposed to their colonial masters and/or allies of the United States.",5,Helping Hand,2,3,https://brainly.com/question/9949578,1525358298
+"Franz Mesmer’s theory of medicine was that illnesses, especially hysteria, were caused by which of the following?
+
+A. unconsciously held beliefs about ill health
+B. close contact with unclean animals and germs
+C. misalignment of the body’s magnetic fluids
+D. childhood psychoses, which caused mental illness
+
+",Physics,it is C...hope this helps i took the test ,5,Ambitious,3,3,https://brainly.com/question/9446024,1522692692
+"Franz Mesmer’s theory of medicine was that illnesses, especially hysteria, were caused by which of the following?
+
+A. unconsciously held beliefs about ill health
+B. close contact with unclean animals and germs
+C. misalignment of the body’s magnetic fluids
+D. childhood psychoses, which caused mental illness
+
+",Physics,"Answer is C. I also just took the test, got 100%.",5,Helping Hand,3,2,https://brainly.com/question/9446024,1522692692
+"For a science experiment, Marley wanted to compare the heights of five different plants she was growing. Which type of graph would best display this information
+
+A. line graph
+B. bar graph
+C. line plot
+D. circle graph
+
+HELP ASAP! NO GUESSING!",Mathematics,A bar graph would be best fit for this,4,Beginner,3,2,https://brainly.com/question/9968218,1525447162
+Which of the following statements describes rational use of national forests? A.only large businesses should be allowed to harvest trees in national forests. B. there should be no restrictions on the land. C.national forests should be protected to make the best use of the nation's natural resources. D. national forests should ban lumbering completely.,History,"Brainly User
+the answer is c hope this helps
+Click to let others know, how helpful is it
+5.0
+13 votes
+
+THANKS
+47
+Comments (1) Report
+
+National forests should be protected to make the best use of the nation's natural resources.
+",5,Brainly User,13,47,https://brainly.com/question/995815,1455825021
+"_____ was a wealthy businessman, whose execution caused riots in Saint-Domingue.",Social studies,"the answer is the french revolution 
+
+",2,Ambitious,3,1,https://brainly.com/question/9950958,1525364545
+"7. in the biography nolan bushnell which of the following descriptions best reflects the authors feelings towards the impact of the computers on society
+A. computers hinder the academic performances of many students
+B. computers and technology promote exercise for the mind
+C. the exploration of computers helps students achieve their dream and encourage students to study more computer science courses 
+D. computers are technology need to be carefully monitored by parents
+",English,Ok I would say C. But if c. is not correct than I'm terribly sorry but I hope you do well with your homework...,5,Brainly User,2,13,https://brainly.com/question/2673771,1485025093
+What was it about Truman's background that helped make him a good president? A. He spent his entire adult life as a public servant. B. He had experience in a wide variety of jobs. C. He was a close friend of FDR's and learned a lot from him. D. He wrote many books on the history of American government.,History,Answers A and B are both correct.,4,Ambitious,132,181,https://brainly.com/question/999994,1455903366
+What was it about Truman's background that helped make him a good president? A. He spent his entire adult life as a public servant. B. He had experience in a wide variety of jobs. C. He was a close friend of FDR's and learned a lot from him. D. He wrote many books on the history of American government.,History,"B,the answer to this problem is B",4,Beginner,159,228,https://brainly.com/question/999994,1455903366
+"Mark the statement if it accurately describes European history and geography.	
+A.
+The Alps are mountains that made Napoleon’s invasion of Italy easy.
+B.
+The English Channel helped protect the island nation of Britain from invasion.
+C.
+Corsica is a small island in the Mediterranean Sea.
+D.
+The Congress of Vienna redrew the map of Europe to increase the size of the French Empire.
+E.
+Spain and Portugal form the Iberian Peninsula.",History,D. The Congress of Vienna redrew the map of Europe to increase the size of the French Empire.,4,Beginner,11,15,https://brainly.com/question/995764,1455824138
+"The decline in U.S. manufacturing was balanced by all of the following, except?
+
+a.
+technology.
+c.
+computers.
+b.
+pharmaceuticals.
+d.
+agriculture.",History,"d.
+agriculture
+
+There is only branch among mentioned that didn't expended in employment market all other three was developing fast and become vita for U.S economy",5,Ambitious,2,4,https://brainly.com/question/1208147,1460644184
+"I NEED THIS QUESTION ANSWERED ASAP!!! 
+What makes the Chinese language so different from most other languages?
+A. It is a tonal language
+B. It is written in the Cyrillic alphabet
+C. It uses only 12 sounds
+D. It has no verbs",History,"The answer should be A.
+
+It is a tonal language.",5,Expert,3,2,https://brainly.com/question/4291102,1499362317
+"I NEED THIS QUESTION ANSWERED ASAP!!! 
+What makes the Chinese language so different from most other languages?
+A. It is a tonal language
+B. It is written in the Cyrillic alphabet
+C. It uses only 12 sounds
+D. It has no verbs",History,"The answer is A 
+
+Tonal language",5,Ambitious,1,2,https://brainly.com/question/4291102,1499362317
+What do homologous structures have in common,Biology,"A homologous structure is an example of an organ or bone that appears in different animals, underlining anatomical commonalities demonstrating descent from a common ancestor. In other words, it's when very different animals have bones that appear very similar in form or function and seem to be related.",0,Ambitious,0,0,https://brainly.com/question/10368683,1528071669
+What do homologous structures have in common,Biology,they hve the same genes in the same places,0,Beginner,0,0,https://brainly.com/question/10368683,1528071669
+Write a conversation in French between yourself and a friend in which you talk about descriptions of people and things and make comparisons of people and things. Your conversation must be at least 12 lines long.,French,"
+Garçon nommé Troy avait l'habitude de vivre à Detroit L'argent du gros dealer, il achetait des pièces de monnaie Était dans les fusillades avec la loi, mais il vit dans un palais
+-
+Ce mec nommé Michael utilisé pour faire de la moto XXXX plus gros qu'une tour, je ne parle pas d'Eiffel
+Oh mon dieu, regarde ses fesses (Regardez ses fesses) Regardez, regardez, regardez Regardez, à ses fesses Peu au milieu mais elle a beaucoup de retour
+
+(A real conversation i had between me and my friend while ppl watching)~",2,Helping Hand,2,0,https://brainly.com/question/10368697,1528071873
+Write a conversation in French between yourself and a friend in which you talk about descriptions of people and things and make comparisons of people and things. Your conversation must be at least 12 lines long.,French,"Hi,
+
+
+Jean : Salut Marc, tu vas bien?
+Marc : Oui, merci. Je suis très content car il y a ma correspondante française qui vient me voir.
+Jean : C'est génial ! Elle a quel âge? Elle s'appelle comment?
+
+Marc : Elle a 17 ans. Elle s'appelle Marie.
+Jean : Tu peux me la décrire?
+Marc : Elle est grande, elle a les yeux bleus et les cheveux blonds. Elle aime beaucoup son pays mais adore parler anglais. Et ta correspondante?
+
+Jean : Ma correspondante s'appelle Julie, elle à 15 ans. Elle est de taille moyenne, elle à les yeux marrons et les cheveux bruns. Elle parle trois langues, le français, l'italien et sa préféré est l'anglais.
+Marc : Elle aime notre pays?
+Jean : Oui beaucoup, mais elle aimerait visiter d'abord l'italie.
+Marc : Elle a des frères et soeurs?
+Jean : Oui, elle a deux frères. Et Marie?
+Marc : Elle a une petite soeur qui a 2 ans.
+Jean : Peut-être qu'un jour nous aurons la joie de nous retrouver tous les quatre et de faire connaissance.
+Marc : Ca serait génial !
+
+",5,Ace,1,0,https://brainly.com/question/10368697,1528071873
+"Producers _____ labor, because they want and are willing to pay for people to work in their businesses.",History,"Producers DEMAND labor because they want and are willing to pay for people to work in their businesses.
+
+The employees are the ones who supply labor. They are the human resource of any company. ",5,Ambitious,3,2,https://brainly.com/question/9953698,1525377924
+"Producers _____ labor, because they want and are willing to pay for people to work in their businesses.",History,Demand because that’s what producers do,5,,1,1,https://brainly.com/question/9953698,1525377924
+"The process of mummification was thought to help advance medicine because 
+A. drawings were made from the internal organs.
+B. removal of organs helped Egyptians study anatomy.
+C. it allowed Egyptians to practice surgical procedures.
+D. it helped contain disease.",Health,The answer is B- helped them study the anatomy.,5,Beginner,4,10,https://brainly.com/question/955611,1454822562
+What is the process of discovery that allows us to link observations with actual facts? A. Science B. Inquiry C. Mathematics D. Repetition,Biology,"A. Science.
+
+Science is the discovery of nature.",0,Helping Hand,0,2,https://brainly.com/question/9464624,1522792769
+What is the process of discovery that allows us to link observations with actual facts? A. Science B. Inquiry C. Mathematics D. Repetition,Biology,"The answer would be A) Science.
+
+Hope this Helps :)",0,Ambitious,0,1,https://brainly.com/question/9464624,1522792769
+"3.) According to Karl Marx, human history shows that struggle develops between the thesis and its antithesis, leading to a synthesis. Marx called this historical change a
+
+A) Radical transformation
+B) Cyclical Activity
+C) Dialectical process
+D) Analytical process
+
+8.) During some periods of time, there are very few social movements in society and, at other times, a wave of social movements will emerge. Ther number of social movements increases
+
+A) During periods of economic expansion
+B) When a society experiences population shrinkage
+C) During periods of Political stability
+D) When a society experiences a cultural crisis
+
+9.) When missionaries introduced steel axes to the aborigines of Australia, it upset their entire society. This spreading of an invention from one society to another is referred to as
+
+A) Discovery
+B) Diffusion
+C) Reformulation
+D) Cultural lag
+
+10.) if a large group of people organized to promote or resist social change, it is involved in a
+
+A) Social movement
+B) Moral panic
+C) Social revolution
+D) Riot",Social studies,"3.) According to Karl Marx, human history shows that struggle develops between the thesis and its antithesis, leading to a synthesis. Marx called this historical change a ""Dialectical process"".
+
+The dialectical method is a mindset about reality that can be a critical apparatus for uncovering the passing and fleeting nature of a social framework that on occasion - maybe more often than not - has all the earmarks of being a reality as genuine and unfaltering as the floor at the base of the staircase.
+
+8.) During some periods of time, there are very few social movements in society and, at other times, a wave of social movements will emerge. The number of social movements increases ""When a society experiences a cultural crisis"".
+
+
+A social movement is a vast gathering of individuals who are composed to advance or oppose some social change. A social development is regularly in light of two variables - initially, whom the development is endeavoring to change, and second, how much change a development is upholding. Social developments can happen at the individual level or at the societal level, and they can advocate for either minor or radical changes. 
+
+9.) When missionaries introduced steel axes to the aborigines of Australia, it upset their entire society. This spreading of an invention from one society to another is referred to as ""Diffusion"".
+
+
+Ogburn's third procedure of social change is diffusion, the spread of innovation or revelation starting with one region then onto the next. Contact between societies is the wellspring of dissemination. Ogburn saw diffusion as the real procedure of social change and contends that it can have far achieving consequences for human connections. 
+
+10.) if a large group of people organized to promote or resist social change, it is involved in a ""Social movement"".
+
+
+A social development is a sort of gathering activity. Social developments can be characterized as ""hierarchical structures and techniques that may enable mistreated populaces to mount viable difficulties and oppose the all the more intense and advantaged elites"". They are expansive, now and again casual, groupings of people or associations which center around particular political or social issues. ",5,Ambitious,2,2,https://brainly.com/question/9970105,1525457727
+"PLEASE I NEED HELP
+
+
+what is the equation of the circle with center (-4 -3) that passes through the point (6,2)",Mathematics,"The general equation of the circle is:
+
+
+
+(h,k) is the center of the circle and r is the radius. We are given the coordinates of the center. So we can write the equation of the circle as:
+
+
+
+In order to complete the equation, we need the radius of the circle. Using the given point we can find the radius. Using the point in the above equation, we get:
+
+
+
+Thus the value of r² is 125. Using the value in equation of the circle, we get:
+
+
+
+The radius of the circle is √125.",0,Ace,0,0,https://brainly.com/question/10368742,1528073055
+"PLEASE I NEED HELP
+
+
+what is the equation of the circle with center (-4 -3) that passes through the point (6,2)",Mathematics,"The equation for a circle in standard form is .  We have the center, so we have the h and the k, and we have a point, so we have the x and the y.  Let's fill in accordingly and simplify. .  Solving for , we get that ,  Now we can use the info given plus our newly found radius and write the equation.  ",0,Virtuoso,0,0,https://brainly.com/question/10368742,1528073055
+Which example shows BEST how colonial America was a market economy? A)	Colonists refused to pay taxes to the British crown. B)	Colonists could keep the profits from their businesses. C)	The British Navy protected colonists from foreign attacks. D)	The British crown limited colonial trade with foreign countries.,History,A)	Colonists refused to pay taxes to the British crown.,1,Ambitious,1,0,https://brainly.com/question/9953238,1525375685
+Which example shows BEST how colonial America was a market economy? A)	Colonists refused to pay taxes to the British crown. B)	Colonists could keep the profits from their businesses. C)	The British Navy protected colonists from foreign attacks. D)	The British crown limited colonial trade with foreign countries.,History,The answer is B). colonists could keep the profits from their businesses,0,Beginner,0,0,https://brainly.com/question/9953238,1525375685
+History !!!!!!!!!!!!!!!!,History,"1: Pulpit
+2: Presbyterian
+3: Pietist
+4: Steal
+5: Ticonderoga
+6: Riot
+7: Teenager
+8: Seal
+9: Treaty of Ulrecht
+
+:)",5,Ambitious,2,4,https://brainly.com/question/7695909,1513194227
+History !!!!!!!!!!!!!!!!,History,"1) Pulpit
+2) Presbyterian
+3) Pietist
+4) Steal
+5) Ticonderoga
+6) Riot
+7) Teenager
+8) Seal
+9) Treaty of Ulrecht
+
+Hope this helps! :) 
+
+
+",5,Beginner,1,3,https://brainly.com/question/7695909,1513194227
+Fill in the superlative elements that are missing from the sentence below: bien: chanter + Claire chante _______________ du groupe.,French,"Hi,
+
+Claire chante le mieux du groupe.
+
+",5,Ace,1,0,https://brainly.com/question/10300741,1527453551
+Fill in the superlative elements that are missing from the sentence below: bien: chanter + Claire chante _______________ du groupe.,French,"Bonjour,
+
+Claire chante la mieux du groupe.",0,Beginner,0,0,https://brainly.com/question/10300741,1527453551
+"How did the Chinese government respond to the demands of the democratic reform of Tiananmen Square? 
+a. with consensus-building
+b. with economic sanctions
+c. with military force
+d. with popular referendums
+Connexus Lesson 2: Rapid Development in China and India
+World History B Unit 11: The World Today Part I
+
+
+Someone, please help? I will give a brainliest for the rest of the answers? 
+",History,"1. C.
+
+2. C.
+
+3. B, D.
+
+4. A.
+
+5. D.
+
+6. B.
+
+7. C.
+
+8. A.
+
+9. D.
+
+10. A.
+
+11. B.
+
+12. C.
+
+100% Correct, I just took it.
+
+",5,Ambitious,11,16,https://brainly.com/question/9996736,1525668846
+"Steve is good at setting up and managing groups of computers for large cities. In which Information Technology career pathway is he most likely to get a job? Information Support 
+Programming Development 
+Interactive Media 
+Network Systems",Business,Interactive media would be most suitable for Steve as he would be exposed to a wide variety of hands on media production.,5,Helping Hand,3,8,https://brainly.com/question/3677979,1494289339
+"History connects human experiences in the past to...
+A)People today, and people who will come later. 
+B)Their solutions.
+C)Other countries' experiences in the past.
+D)The future.",History,I'll say A im not 100% sure but I think it's A,5,Virtuoso,6,2,https://brainly.com/question/9929933,1525271611
+"The mission statement of your business should contain all of the following elements except the
+A. values of your organization.
+B. purpose of your business.
+C. expected profit margin.
+D. business of your organization.",Business,"c. expected profit margins 
+the mission statement provides information about the company as to who, why and how they plan to operate",5,Beginner,2,12,https://brainly.com/question/994107,1455798017
+"Peter had to collect data on the number of students opting for Physics, Mathematics, English, and Music in his class. He now needs to present this data with the help of a pie chart. Which application software will he use?
+presentation software
+spreadsheet software
+word processing software
+database software
+multimedia software",English,"The 5th Software!
+Multimedia Software
+Hope this helps!
+-Laynee
+
+",4,Beginner,1,3,https://brainly.com/question/9348701,1522076778
+"China was insulated from the Scientific and Industrial Revolutions occurring in Europe because of its self-imposed isolation. As a result,
+
+A) it did not face competition and could focus more clearly on its own goals.
+B) the West continued to badger China diplomatically for cooperation.
+C) the West surged ahead of China while China began its slow decline.
+D) it grew in a parallel way in technology and science, surging ahead of Europe.",History,"Generally speaking, as a result ""B) the West continued to badger China diplomatically for cooperation,"" since the West saw the opportunity for great trade. ",3,Ambitious,29,45,https://brainly.com/question/995588,1455820748
+"From this lesson, in the 7th century, which of the following Chinese influences did Japan adopt: (Select all that apply)
+education
+style of dress
+transportation
+legal code
+music and dance
+Confucianism",History,"Education, Legal code and Confucianism ",4,Helping Hand,15,35,https://brainly.com/question/995713,1455823090
+Trying to solve an impossible mathematics problem can produce useful results.,Mathematics,the answer would be True - apex,5,Ambitious,2,3,https://brainly.com/question/9852546,1524828620
+"Christian wrote his version of a myth about Daphne and Apollo for his English assignment. Read this excerpt from paragraph 2 of Christian’s draft of his introduction and answer the question. He had slain a horrifying monster called the Python, a serpent whose poisonous body had coveredan entire hillside. It required a thousand arrows to kill it. What is the best way to combine the underlined portion to achieve parallel structure? a serpent whose poisonous body had covered an entire hillside and had required a thousand arrows to kill it. a serpent whose poisonous body had covered anentire hillside, and Apollo had required a thousand arrows to kill it. a serpent whose poisonous body had covered an entire hillside and requiring a thousand arrows to kill it. a serpent whose poisonous body had covered an entire hillside and who had required a thousand arrows to kill it.",English,The answer is C. A serpent whose poisonous body had covered an entire hillside and required a thousand arrows to kill it.,4,Ambitious,4,4,https://brainly.com/question/6106876,1507898095
+"Which of the following is most critical for our study for outer space?
+
+A- maps of universe 
+
+B- technology and computers 
+
+C- a new method of doing science 
+
+D- a universal language 
+
+2nd question 
+
+
+Which of the following has been a benefit of the space exploration effort conducted from Florida? 
+
+A- more jobs 
+
+B- more revenue for state
+
+C- greater tourism 
+
+D- all of these",Mathematics,"Question one is A, Question two is B",0,Ambitious,0,1,https://brainly.com/question/7828287,1513708376
+"Which of the following is most critical for our study for outer space?
+
+A- maps of universe 
+
+B- technology and computers 
+
+C- a new method of doing science 
+
+D- a universal language 
+
+2nd question 
+
+
+Which of the following has been a benefit of the space exploration effort conducted from Florida? 
+
+A- more jobs 
+
+B- more revenue for state
+
+C- greater tourism 
+
+D- all of these",Mathematics,"Which of the following is most critical for our study for outer space?
+
+Answer: B. technology and computers 
+
+Technology and computers are the ways in which we have been able to fly to the moon. Technology made locating the planets and things in the universe possible, with the use of satellites. The computers analyzed this data to create a path for the rockets to navigate through obstacles in space so they could journey safely.
+
+Which of the following has been a benefit of the space exploration effort conducted from Florida? 
+
+Answer: D. all of these (more jobs, more revenue for the state, and greater tourism)
+
+Hope this helps!",0,Ambitious,0,1,https://brainly.com/question/7828287,1513708376
+"You should now be familiar with the Gupta Empire! Your job is to create a photo story that describes the major contributions and achievements of the Gupta Empire. This photo story must show carefully chosen images from four categories: Category 1: Medicine Category 2: Mathematics Category 3: Technology Category 4: Religion You must also explain why each photo shows a contribution or achievement that relates to the specific category you placed it in. Your explanation should describe how the contribution or achievement impacted the Gupta Empire. Take a look at the example below. This image shows how skilled Indian metal workers were because a construction like this would not be completed by Europeans until the 19th century. It was more than twenty-three feet tall and weighed more than six tons. © Public Domain Requirements: Your photo story must: include one opening slide with a title for the presentation and the time period of the Gupta Empire include one carefully chosen image for each category explain how each image represents a contribution or achievement of the Gupta Empire within a specific category and how it impacted the Gupta Empire each explanation must be at least three sentences identify the time period each contribution is from
+
+please help:)
+Worth 20 points 
+I will give you brainliest
+",Social studies,"Your welcomed
+Hope this helps",5,Ambitious,4,3,https://brainly.com/question/9417018,1522418281
+"During the Panic of 1929, leading to Black Thursday, the heavy selling of stocks in a short period of time caused Prices of stock to drop
+Businesses to issue more stocks
+People to buy more shares
+Prices of stock to rise",History,"Brainly User
+Hi Dude !
+
+
+
+
+
+The nation's leading bankers came together to buy stocks in orderto try to prevent a further collapse in prices. The Wall StreetCrash of 1929 is known as Black Thursday.
+
+
+
+
+
+hope this benefits , thanks ♥
+Click to let others know, how helpful is it
+3.0
+2 votes
+
+THANKS
+2
+Comments Report
+
+",3,Brainly User,2,2,https://brainly.com/question/9981046,1525520999
+What is a viable business,Business,"Viability in a business is measured by if it will have a sustainable amount of profits overtime and if the business is having a long-term survival rate. A viable business can survive for years due to its annual profits. Viability is based upon profits. 
+
+",4,Beginner,1,3,https://brainly.com/question/997568,1455856768
+Which of the following thesis statements is both debatable and specific? Cell phones and tablets are a common feature of the world today. Computers and mobile technology are being used more and more in the classroom. Cell phones must not be banned in classrooms because they can be used as educational tools. Teachers and educators often explore ways to take advantage of mobile devices.,English,"cell phones must not be banned in classrooms -
+Because its specific about the topic the place where the topic shouldn't banned at and has an argument as to why. 
+Teachers and educators often explore way-
+this one seems like an option to but the way its written is more of like a statement in my opinion than an argument cause it doesn't specify how they take advantage
+these two seem like your best anwser",5,Ambitious,1,3,https://brainly.com/question/2857272,1486746149
+"Which industry is responsible for a high demand for fossil fuel?
+A-nuclear plants
+B-food processing
+C-agriculture
+D-transportation
+E-medicine",History,the answer is a..........,5,Ambitious,2,2,https://brainly.com/question/9584038,1523459908
+"Which industry is responsible for a high demand for fossil fuel?
+A-nuclear plants
+B-food processing
+C-agriculture
+D-transportation
+E-medicine",History,the answer is the first one,5,Beginner,1,2,https://brainly.com/question/9584038,1523459908
+"15 POINTS 
+
+PLEASE HELP ME PLEASE
+
+A person who is interested in finding a cure for diabetes, in which the pancreas does not produce insulin, might pursue a career in
+
+endocrinology
+
+gene therapy
+
+neuroscience
+
+sports medicine",Physics,"Endocrinology- They treat diabetes with diet and blood sugar reducing medications, including insulin. They also work closely with patients to control blood sugar and monitor them so they can prevent health problems.",4,Helping Hand,2,3,https://brainly.com/question/9416832,1522415768
+"The ancient Chinese were eager to share the art of silk production with other cultures.	
+
+A.
+True
+
+B.
+False",History,"This is false, they were not eager to share the art of silk prodution. i hope this helped!",5,Helping Hand,4,6,https://brainly.com/question/985363,1455632572
+"Which of these is written correctly? A)	Tamika stayed home all weekend. Just to finish her science report. B) Tamika stayed home all weekend just to finish her science report. Eliminate C)	Just to finish her science report. Tamika stayed home all weekend. D)	All weekend to finish her science report, Tamika stayed home. 14)",English,Your answer would be B.,5,Expert,5,4,https://brainly.com/question/9971585,1525469482
+"Which of these is written correctly? A)	Tamika stayed home all weekend. Just to finish her science report. B) Tamika stayed home all weekend just to finish her science report. Eliminate C)	Just to finish her science report. Tamika stayed home all weekend. D)	All weekend to finish her science report, Tamika stayed home. 14)",English,"I agree that the answer is b
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",5,Ambitious,2,2,https://brainly.com/question/9971585,1525469482
+"Which statement describes an hourly wage job? Each paycheck is the exact same regardless of number of hours worked. Each paycheck is less, even if an employer wants you to work more hours in a week. If an employer wants the employee to work more hours in a week, the result is a larger paycheck. If the business is closed for a holiday, the employee still gets paid regardless of available vacation hours.",Mathematics,"If an employer wants the employee to work more hours in a week, the result is a larger paycheck. Hope I helped :)
+
+",5,Frequent Answerer,6,7,https://brainly.com/question/9932690,1525284491
+"Which statement describes an hourly wage job? Each paycheck is the exact same regardless of number of hours worked. Each paycheck is less, even if an employer wants you to work more hours in a week. If an employer wants the employee to work more hours in a week, the result is a larger paycheck. If the business is closed for a holiday, the employee still gets paid regardless of available vacation hours.",Mathematics,"The correct answer is If an employer wants the employee to work more hours in a week, the result is a larger paycheck. This is because you are paid by the hours you work.",5,Ambitious,4,4,https://brainly.com/question/9932690,1525284491
+"SOMEONE PLEASE HELP ME!!!! 
+(ILL GIVE BRAINLIEST)
+
+Read the following prompt and type your response in the space provided. Read the excerpt from the text of Antigone.
+
+Then, in one well-devidence paragraph, make inferences about what kind of man creonn is explain how his words reveal his character. use evidence from the excerpt to support your answer 
+
+TEREISIAS; think all men make mistakes, But a good man yields when he knows his course is wrong, and repairs the evil the only crime is pride. Give in to the dead man, then; do not fight whit corpse- what glory is it to kill a man who is dead? Think, i beg you; it is for your own good that speak as i do you should be able to yield for your own good. 
+
+CREON; it seems that prophets have made me their especial province. all my life long i have been a kind of butt for the dull arrows of doddering fortune tellers! No, Teiresias: if your birds- if the great eagles of god himself should carry him stinking bit by bit to heaven, i would not yield i am not afraid of pollution: no man can defile the gods. do what you will, go into business, make money, speculate in India gold or that synthetic gold from sardis, get rich otherwise than by my consent to bury him. sells his wisdom, lets out his words for hire!",English,"The kind of man Creon is respectful but not afraid to make mistakes. What this reveals about his character is that he knows all men make mistakes but he knows that we all learn from our mistakes. He is telling men/people to do what they want but will eventually learn what is right. He is also saying that wise men will likely pick the right choice first but make mistakes that they will learn from also.
+",5,Ambitious,3,6,https://brainly.com/question/9940029,1525321983
+"Sorry this is soc.st i couldn't find science. 
+1. Current needs to flow through a connector such as ______________.
+",Social studies,a conductor would be copper and pretty much any metal,4,Beginner,3,7,https://brainly.com/question/9950,1392157183
+Which period of egyptian history accured closest to the beginning of the common era?,History,Ptolemaic dynasty occurred closest to the Common era. This era lasted from 305 BC to 30 BC.,5,Ambitious,1,6,https://brainly.com/question/994542,1455802792
+"What did the collapse of the Soviet Union mean economically?
+A. Many countries would now be unable to trade with countries outside of their borders. 
+B. New markets would be open to outside investors free of strict Soviet rule. 
+C. A destabilized military would sell military hardware for profit. 
+D. Businesses would fail to meet their financial obligations and hurt global markets.",History,B. New markets would be open to outside investors.,5,Ambitious,5,7,https://brainly.com/question/998202,1455866316
+"Which statement best summarizes Gregor Mendel's contribution to science? Question options: 
+Mendel invented the green pea by cross-breeding thousands of pea plants. Mendel coined the word genes to describe inherited traits. 
+Mendel determined that garden pea plants can produce flowers in a variety of colors. 
+Mendel found evidence that factors for some traits are inherited from parents.",Biology,"The final answer is correct
+",5,Ace,7,8,https://brainly.com/question/9954976,1525385290
+"Which statement best summarizes Gregor Mendel's contribution to science? Question options: 
+Mendel invented the green pea by cross-breeding thousands of pea plants. Mendel coined the word genes to describe inherited traits. 
+Mendel determined that garden pea plants can produce flowers in a variety of colors. 
+Mendel found evidence that factors for some traits are inherited from parents.",Biology,"Its the last one
+just give the other person brainliest
+
+
+",5,Ambitious,6,6,https://brainly.com/question/9954976,1525385290
+"What Chinese philosopher argued that rulers should rely on laws and rules?
+
+Confucius 
+
+Han Fei Zi
+
+Qin Shi Huangdi
+
+Laozi 
+
+",History,"I think it was Laozi?
+",2,Ambitious,3,3,https://brainly.com/question/9933543,1525288535
+"What Chinese philosopher argued that rulers should rely on laws and rules?
+
+Confucius 
+
+Han Fei Zi
+
+Qin Shi Huangdi
+
+Laozi 
+
+",History,Confucious is the correct answer.,5,Helping Hand,1,3,https://brainly.com/question/9933543,1525288535
+"Before creating a business plan an entrepreneur must research ____ business in the past:
+
+A. Similar 
+B. Different 
+C. All 
+D. Random",Business,An entrepreneur must research similar business in the past,1,Beginner,1,2,https://brainly.com/question/9970365,1525459311
+"Before creating a business plan an entrepreneur must research ____ business in the past:
+
+A. Similar 
+B. Different 
+C. All 
+D. Random",Business,It's A. Similar just took the test its right,5,Ambitious,1,2,https://brainly.com/question/9970365,1525459311
+"An author claims that ""zoos do more good than harm."" The author provides the following as support for the claim: I believe zoos are great because they give animals exactly what they need. I have seen caretakers feed animals and give them medicine when they are sick. I have watched zookeepers cuddle baby monkeys and place blankets over cold piglets. They train animals to do tricks, too, so that the animals have fans who love and cheer for them. I am sure this makes the animals happy. Which choice best describes the support the author provides? 
+A It is effective support for the claim. 
+B It is ineffective support because it does not help prove the claim. 
+C It is ineffective support because it presents opinion rather than fact. 
+D It is ineffective support because it provides no source for the information.",English,"I think it would be C because he says how he believes it makes them happy, but there is no proof that animals are happy when they have crowd cheering them on.",5,Helping Hand,4,4,https://brainly.com/question/9569126,1523392165
+"An author claims that ""zoos do more good than harm."" The author provides the following as support for the claim: I believe zoos are great because they give animals exactly what they need. I have seen caretakers feed animals and give them medicine when they are sick. I have watched zookeepers cuddle baby monkeys and place blankets over cold piglets. They train animals to do tricks, too, so that the animals have fans who love and cheer for them. I am sure this makes the animals happy. Which choice best describes the support the author provides? 
+A It is effective support for the claim. 
+B It is ineffective support because it does not help prove the claim. 
+C It is ineffective support because it presents opinion rather than fact. 
+D It is ineffective support because it provides no source for the information.",English,It is C because the author is stating an opinion not supportive claims.,3,Beginner,2,2,https://brainly.com/question/9569126,1523392165
+"In addition to patronage, merchant families during the Renaissance began to
+
+educate their sons.
+practice new religions.
+establish new businesses.
+hide their wealth.",History,The correct answer is educate their sons,5,Ambitious,2,1,https://brainly.com/question/9966906,1525439265
+"Which four of these developments were made under mongol rule during the pax Mongolica? 
+
+A. The extension of the grand canal in China 
+B. The spread of Christianity 
+C. The spread of weapons that used gunpowder
+D. The invention of new medicines 
+E. The established of a postal system 
+F. The invention of geometric models of lunar motion",History,"They  established of a postal system
+
+The spread of weapons that used gunpowder
+
+The extension of the grand canal in China 
+
+The invention of new medicines 
+",4,Ambitious,5,8,https://brainly.com/question/9318081,1521834331
+"Read the excerpt from The Time Traveler's Guide to Elizabethan England. But what if it comes to the worst? What if you have painful black buboes in your groin and armpits, and experience the rapid pulse, the headaches, the terrific thirst, and delirium that are the tokens of the plague? There is little you can do. Physicians will prescribe the traditional medicines of dragon water, mithridatium, and theriac if they hear you are suffering but you will suspect that these are cynical attempts to relieve a dying person of his money. The physicians themselves will not normally come near you. Simon Forman, who does attend plague sufferers, is a rare exception: this is because he has himself survived the disease and believes he cannot catch it again. What is the central idea of this paragraph? Physicians could not do much for victims of the plague. Physicians were afraid to come near patients with symptoms. Symptoms of the plague included headaches and delirium. Symptoms were treated with dragon water or theriac.",English,the answer to the question is B.,1,Ambitious,5,0,https://brainly.com/question/9622848,1523639394
+Which loanword trend(s) originate(s) from algonquin? a. animals b.architecture and music c.politics and religion d. science and mathematics,English,"The correct option is A.
+A loan word refers to a word from another language that was adopted by the speakers of a particular language. Loan words usually filter into other languages when people from different cultures and language mix together. For instance, the word 'animal as used in English language was borrowed from the people of  Algonquin.",5,Expert,2,2,https://brainly.com/question/9586721,1523472120
+"Read this excerpt from ""Talking Robots."" 
+
+Of course, neural networks still have a long way to go before they can model the human brain. As physicist Heinz Pagels has said: “The difference between a real neuron and the model neurons . . . is like the difference between a human hand and a pair of pliers.” But the fact that a simple neural network can speak at all is remarkable, indicating that perhaps human abilities can be simulated by electronics. . . . 
+
+Which is the most accurate summary of Kaku’s argument? 
+
+A. The simulated speech of neural networks suggests the potential for other electronic simulations.
+B. Neural networks are vastly inferior to the human brain, and critics question whether they can speak at all. 
+C. Neural networks are vastly different from the human brain, just as pliers are different from the human hand. 
+D. Electronic simulation of speech suggests that technological ability will eventually exceed human potential.",English,It's A. The simulated speech of neural networks suggests the potential for other electronic simulations. Just took my Cumulative. Good luck <3 ,4,Helping Hand,8,13,https://brainly.com/question/3424187,1492022187
+"In 1933, Hitler took action against Jews in Germany by
+building death camps in German cities.
+building Jewish ghettos in many cities.
+boycotting Jewish businesses.
+encouraging mob attacks on Jewish communities.",History,"In 1933, Hitler took action against Jews in Germany by boycotting Jewish businesses.",5,Virtuoso,3,2,https://brainly.com/question/9930099,1525272399
+"An ecologist studies the relationships among organisms. The work of an ecologist will most likely help solve problems related to which societal problem?
+A: treatment of disease
+B: protection of food supplies
+C: protection of the environment
+D: overuse of prescription medicine",Biology,"Protection of the environment
+",4,Helping Hand,2,2,https://brainly.com/question/9302628,1521755314
+"An ecologist studies the relationships among organisms. The work of an ecologist will most likely help solve problems related to which societal problem?
+A: treatment of disease
+B: protection of food supplies
+C: protection of the environment
+D: overuse of prescription medicine",Biology,"the protectionf of the environment 
+
+",3,Ambitious,1,2,https://brainly.com/question/9302628,1521755314
+"Gabriella's business hasn't been doing well. She has a retail store where she is selling dog treats, baby clothes, and high-end athletic shoes. When people walk by her store, they're unsure of what she is selling. Based on the information provided, why might Gabriella be having difficulty?
+
+
+She hasn't developed a targeted niche. 
+
+
+
+
+
+
+
+Her products are of low quality. 
+
+
+
+
+
+
+
+She has too much inventory. 
+
+
+
+
+
+
+
+She isn't hitting the right price point. 
+",Business,"I'm pretty sure it's ""She hasn't developed a targeted niche.""
+",5,Helping Hand,3,1,https://brainly.com/question/9929676,1525270308
+Which statements best describe how businesses can take advantage of globalization? Check all that apply. using lower labor costs in other countries creating higher barriers to trade transporting resources quickly from distant locations limiting trade with other countries communicating more quickly with other countries,Social studies,"using lower labor costs in other countries
+transporting resources quickly from distant locations
+communicating more quickly with other countries
+
+
+
+just took the test",5,Ambitious,7,6,https://brainly.com/question/9951945,1525369310
+"The Science Club went on a two-day field trip. The first day the members paid $60 for transportation plus $15 per ticket to the planetarium. The second day they paid $95 for transportation plus $12 per ticket to the geology museum. Write an expression to represent the total cost for two days for the n members of the club. 
+Thank you so much!",Mathematics,"day 1 total $60+$15=$75
+day 2 total $95+$12=$107
+total 2 days = $181",4,Beginner,3,7,https://brainly.com/question/995854,1455825794
+"Mathematics help please!
+
+Evaluate -64 divided by -8",Mathematics,"Hi,
+-64/-8
++64/+8
++8
+Hope this helps you.
+",5,Virtuoso,3,2,https://brainly.com/question/9796572,1524590370
+"Mathematics help please!
+
+Evaluate -64 divided by -8",Mathematics,6 negative plus negitive is positive,3,Beginner,1,2,https://brainly.com/question/9796572,1524590370
+Heavy Metal Contamination	Microbial Contamination from E coli	Microbial Contamination from Staphylococcus	Microbial Contamination from Pseudomonas	Microbial Contamination from Salmonella Capsule A	0.04%	0.15%	0.28%	0.33%	0.31% Capsule B	0.06%	0.22%	0.31%	0.21%	0.29% Capsule C 0.05%	0.24%	0.24%	0.23%	0.30% Capsule D	0.05% 0.18%	0.34%	0.22%	0.27% Total	0.05%	0.17%	0.27% 0.24%	0.28% The probabilities of contamination in medicine capsules due to the presence of heavy metals and different types of microbes are given in the table. The probability of capsule B having microbial contamination is the probability of capsule D having it.,Mathematics,the answer is greater than,4,Helping Hand,8,10,https://brainly.com/question/9462700,1522781411
+Heavy Metal Contamination	Microbial Contamination from E coli	Microbial Contamination from Staphylococcus	Microbial Contamination from Pseudomonas	Microbial Contamination from Salmonella Capsule A	0.04%	0.15%	0.28%	0.33%	0.31% Capsule B	0.06%	0.22%	0.31%	0.21%	0.29% Capsule C 0.05%	0.24%	0.24%	0.23%	0.30% Capsule D	0.05% 0.18%	0.34%	0.22%	0.27% Total	0.05%	0.17%	0.27% 0.24%	0.28% The probabilities of contamination in medicine capsules due to the presence of heavy metals and different types of microbes are given in the table. The probability of capsule B having microbial contamination is the probability of capsule D having it.,Mathematics,"The answer is greater than
+
+",5,Helping Hand,1,2,https://brainly.com/question/9462700,1522781411
+I don't understand. Please help answer questions!!!!!!,Mathematics,"16) yes, they are reflections on a summit.
+17) no parallelogram shown to answer question ",0,Beginner,0,0,https://brainly.com/question/10368934,1528076987
+"The Chinese language has influenced which of the following languages?
+a Vietnamese and Russian
+b Japanese and Korean
+c Thai and Turkish
+d Cantonese and Arabic",Social studies,Japanese and Korean.,5,Ace,2,3,https://brainly.com/question/8060360,1515173928
+"The Chinese language has influenced which of the following languages?
+a Vietnamese and Russian
+b Japanese and Korean
+c Thai and Turkish
+d Cantonese and Arabic",Social studies,The answer is B. Japanese and Korean,5,Beginner,2,2,https://brainly.com/question/8060360,1515173928
+"Which sentence from the passage is the best example of a feature found in a myth? Near the beginning of life on Earth, Shen Nong, who was the Lord of the Wind, made many journeys over our world. Shen Nong was the second of the Three Sovereigns. The other two Chinese sovereigns were called Fu Xi and Yen Ti. One after another, they helped create civilization and imparted to mankind many skills, lessons, and gifts.",English,"i would go with sentence number one 
+
+",5,Ambitious,3,3,https://brainly.com/question/9935098,1525297136
+"Which sentence from the passage is the best example of a feature found in a myth? Near the beginning of life on Earth, Shen Nong, who was the Lord of the Wind, made many journeys over our world. Shen Nong was the second of the Three Sovereigns. The other two Chinese sovereigns were called Fu Xi and Yen Ti. One after another, they helped create civilization and imparted to mankind many skills, lessons, and gifts.",English,"The answer, I believe, would be the first one because it has something to do with life and fantasy, and that is usually what myths are based off of.",5,Frequent Answerer,2,2,https://brainly.com/question/9935098,1525297136
+"Purchasing power parity is used to compare the gross domestic product between
+1)businesses.
+2)consumers.
+3)stock markets.
+4)countries.",History,"THE BRAINLIEST ANSWER!
+Brainly User
+3) is most likely the answer.
+
+Hope this helped!
+
+;D
+
+Brainliest?????
+Click to let others know, how helpful is it
+5.0
+3 votes
+
+THANKS
+1
+Comments (4) Report
+
+WRONG
+countries.
+brailiest!!!!
+The correct answer is countries
+
+",5,Brainly User,3,1,https://brainly.com/question/9956599,1525396099
+"Purchasing power parity is used to compare the gross domestic product between
+1)businesses.
+2)consumers.
+3)stock markets.
+4)countries.",History,3)stock markets is the answer,5,,1,1,https://brainly.com/question/9956599,1525396099
+"Marty is a successful entrepreneur who opened a fast food restaurant selling soup and sandwiches. He opened his first restaurant in Colorado, and soon after expanded to New Mexico, Arizona, and Texas. What might be one reason why Marty's business is expanding?
+
+Higher per capita incomes in Colorado, New Mexico, Arizona, and Texas than elsewhere
+
+Reduced demand for soup and sandwiches in neighboring states
+
+Absence of potential customers in other states
+
+
+Positive shared experience spread among Marty's customer base through cultural diffusion",History,The answer to your question would be the last option. Positive shared experience,5,Beginner,5,6,https://brainly.com/question/9931955,1525280780
+"Marty is a successful entrepreneur who opened a fast food restaurant selling soup and sandwiches. He opened his first restaurant in Colorado, and soon after expanded to New Mexico, Arizona, and Texas. What might be one reason why Marty's business is expanding?
+
+Higher per capita incomes in Colorado, New Mexico, Arizona, and Texas than elsewhere
+
+Reduced demand for soup and sandwiches in neighboring states
+
+Absence of potential customers in other states
+
+
+Positive shared experience spread among Marty's customer base through cultural diffusion",History,"Brainly User
+The answer is:
+
+Positive shared experience spread among Marty's customer base through cultural diffusion
+Click to let others know, how helpful is it
+5.0
+2 votes
+
+THANKS
+2
+Comments (1) Report
+
+Thanks Dripppp! You are a star!!! :)
+
+",5,Brainly User,2,2,https://brainly.com/question/9931955,1525280780
+"A person who is interested in the role of genetics in health might pursue a career in
+endocrinology
+gene therapy
+neuroscience
+sports medicine",Health,the answer is definitely Gene therapy,5,Helping Hand,3,3,https://brainly.com/question/9624298,1523647622
+"Differences in regional economic development during the 19th century produced which of these conditions in the United States at the time of the Civil War?
+
+A The North was the nation's main industrial area.
+
+B The South was the main destination for immigrants.
+
+C The North was the nation's main cotton-producing area.
+
+D The South was the nation's main transportation center for agricultural goods.
+
+I know HistoryGuy has already answered this but he isnt the most reliable source so I just want to ask this just in case.",History,"Differences in regional economic development during the 19th century produced the condition that ""A The North was the nation's main industrial area"" which strained the South.",5,Helping Hand,3,5,https://brainly.com/question/9938460,1525317607
+"Read the quotation. “[T]o the victor belong the spoils of the enemy.” In this quotation, Senator William Marcy was comparing politics to sports. business. war. peace.",English,He was comparing it to war,5,Ambitious,1,0,https://brainly.com/question/9983343,1525550143
+"Read the quotation. “[T]o the victor belong the spoils of the enemy.” In this quotation, Senator William Marcy was comparing politics to sports. business. war. peace.",English,"Your answer would be C. ""war.""",0,Expert,0,0,https://brainly.com/question/9983343,1525550143
+"What is not a reason that business would look to hire children to work in factories?
+A) the factory owners wanted to give children the experience at a job so they could hopefully one day go in to own a factory of their own
+B) the children were too young to form a union 
+C) they could pay them 
+less 
+D) their smaller hands could operate the new machinery with ease",History,The children were too young to form a union hope I helped =),5,Expert,1,1,https://brainly.com/question/9954330,1525381346
+"What is not a reason that business would look to hire children to work in factories?
+A) the factory owners wanted to give children the experience at a job so they could hopefully one day go in to own a factory of their own
+B) the children were too young to form a union 
+C) they could pay them 
+less 
+D) their smaller hands could operate the new machinery with ease",History,I think the answer is B. the children were too young to form a union. Hope this helps!,5,Expert,1,1,https://brainly.com/question/9954330,1525381346
+"PLEASE HELP 20 POINTS AND BRAINLIEST IF CORRECT
+
+Read the excerpt from a summary of “The World on Turtle’s Back.”
+
+[1] The twins had opposite natures: the right-handed twin was truthful, and the left-handed twin was deceitful. [2] The right-handed twin always did the right thing, and the left-handed twin always did everything backward. [3] In these ways, the brothers represented the two warring natures that are in all people. [4] Quarreling constantly, they used magical powers to create animals that fought one another, and to create plants and medicines that could be used for good or for evil. 
+
+Which best describes sentence 2? 
+A. It is a run-on sentence. 
+B. It is a simple sentence.
+C. It is a compound-complex sentence.
+D. It is a compound sentence.",English,"C) It is a compund-complex sentence
+Compund-complex sentences have two or more coordinate independent clauses and one or more dependent clauses.
+",3,Ambitious,3,1,https://brainly.com/question/9584512,1523461793
+"PLEASE HELP 20 POINTS AND BRAINLIEST IF CORRECT
+
+Read the excerpt from a summary of “The World on Turtle’s Back.”
+
+[1] The twins had opposite natures: the right-handed twin was truthful, and the left-handed twin was deceitful. [2] The right-handed twin always did the right thing, and the left-handed twin always did everything backward. [3] In these ways, the brothers represented the two warring natures that are in all people. [4] Quarreling constantly, they used magical powers to create animals that fought one another, and to create plants and medicines that could be used for good or for evil. 
+
+Which best describes sentence 2? 
+A. It is a run-on sentence. 
+B. It is a simple sentence.
+C. It is a compound-complex sentence.
+D. It is a compound sentence.",English,its b simple sentence because its not really a  run on sentence not compound ,0,Beginner,0,0,https://brainly.com/question/9584512,1523461793
+MLA style is typically used by authors and students creating writing projects in which of the following areas? A. Medicine B. Humanities C. Mathematics D. Business,English,"The answer is B. Humanities
+
+Hope this helps :)",5,Virtuoso,2,4,https://brainly.com/question/9446650,1522697028
+MLA style is typically used by authors and students creating writing projects in which of the following areas? A. Medicine B. Humanities C. Mathematics D. Business,English,Answer is B humanities!!,5,Beginner,2,4,https://brainly.com/question/9446650,1522697028
+Why is it important to know music history?,Arts,It’s not!!!!!!!!!!!!!!!!!,0,Beginner,0,1,https://brainly.com/question/9955555,1525389175
+Why is it important to know music history?,Arts,Truly successful musicians understand all their music because they worked hard at becoming terrifically well-rounded. ... It's time to stop treating music history as a list of dead composers and understand how much we can learn from it,0,,0,2,https://brainly.com/question/9955555,1525389175
+"For each statement below, identify the career described. covers any field in which instruments or processes are created to go along with biomedical technology covers any field dealing with medicine, the creation of medicine, and the provision of supplies for the medicine to be used covers any field that helps in analyzing DNA and identifying individuals from DNA samples taken from crime scenes",Biology,"These jobs are geneticists and criminologists!  Geneticists study genes and how they're inherited, seeing where the DNA came from.  Criminologists will supply the samples to the geneticists, as they take them from the crime scene. ",1,Ambitious,2,0,https://brainly.com/question/9420479,1522460149
+"Is it possible to make an IOS App using Python in Xcode?
+Is Swift the only language to make IOS apps apart from Objective-C?
+",Computers and technology,"THE BRAINLIEST ANSWER!
+Brainly User
+Yes,it is possible. Swift isn't the only language to make IOS apps apart from Objective-C!
+Click to let others know, how helpful is it
+5.0
+2 votes
+
+THANKS
+1
+Report
+",5,Brainly User,2,1,https://brainly.com/question/902888,1453257224
+"Is it possible to make an IOS App using Python in Xcode?
+Is Swift the only language to make IOS apps apart from Objective-C?
+",Computers and technology,"Brainly User
+No, I don't think so, but hey, nothing is impossible ;-)
+Click to let others know, how helpful is it
+3.0
+2 votes
+
+THANKS
+1
+Comments (3) Report
+
+Thanks for that, but by your answer you seem to be guessing and not from past experience? :/ 
+No, there IS past experience, but I said I think so because ANYTHING is possible nowadays
+Duh-doy
+",3,Brainly User,2,1,https://brainly.com/question/902888,1453257224
+A ____ is a graph with nodes and connecting arcs. neural network connection architecture semantic net knowledge scheme,Computers and technology,"Semantic Nets 
+should be the answer",5,Helping Hand,1,1,https://brainly.com/question/8798105,1518986813
+A ____ is a graph with nodes and connecting arcs. neural network connection architecture semantic net knowledge scheme,Computers and technology,Semantic network I think is your answer.,1,Ambitious,1,1,https://brainly.com/question/8798105,1518986813
+"In what areas do we still see the influences of early Greek culture?
+a.) science and mathematics
+b.) arts and architecture
+c.) philosophy
+d.) all of these areas",English,"I'd say D would be the correct answer, considering that all of the things listed are still influenced by early greek culture, especially philosophy, architecture, and math",4,Ambitious,12,28,https://brainly.com/question/953098,1454686731
+"How did the 1980’s recession affect United States farmers?
+A	
+The demand for farm products increased significantly and many farms expanded.
+B	
+The recession did not impact farmers, only those living and working in urban areas.
+C	
+Demand for farm products decreased while interest rates for loans increased. Many farmers were unable to pay their loans, forcing them to leave or sell their farm.
+D	
+Since the population was rising, the demand for American farm products was high and family farms prospered.
+
+
+
+The Midwestern region of the United States is often referred to as the heartland because it is the agricultural center of the nation. What have technological advances such as drilling equipment for wells, machinery, and computers done for the Midwest?
+A	
+Technology has no impact on the Midwest
+B	
+The demand for farm products has decreased.
+C	
+Corporate farms have decreased and small family farms have increased.
+D	
+Techniques have improved making farming more productive.
+
+
+How did the arrival of European settlers change life for indigenous people on the plains?
+A	
+The arrival of settlers had no impact on the lives of indigenous people in the Plains region.
+B	
+Settlers killed nearly all the buffalo and most indigenous people were moved to reservations.
+C	
+The settlers and Native Americans used horses to hunt buffalo more effectively and carefully managing the resources.
+D	
+Settlers and the indigenous people of the Plains shared ideas and ways of doing things, continuing to always occupy the same land.
+
+
+
+505x366
+Use the Structure of Government chart to answer the question. Which statement is true about the organization of Canada’s government?
+A	
+Canada’s head of state is ceremonial. The President of the United States is head of state and government.
+B	
+Canada’s head of state is the Prime Minister and leads the majority party.
+C	
+Members of Canada’s legislature, both the House of Commons and Senate, are elected by the voters.
+D	
+The Queen of England has the same duties and responsibilities as the President of the United States.
+
+Use the Structure of Government chart above to answer the question. What is the difference in the roles of voters in Canada and the United States?
+A	
+The differences are minimal, each country votes.
+B	
+Both countries elect all members of the legislature
+C	
+Voters in the United States have a more direct role in electing government leaders.
+D	
+The head of state in both countries are elected by the voters.
+
+What best explains why Chicago’s location was important to it becoming a railroad junction?
+A	
+Chicago is where a number of railroad lines met.
+B	
+Chicago is near Detroit, the Motor City of the United States.
+C	
+Chicago is known for its ethnic diversity and lively culture.
+D	
+Chicago’s location on Lake Michigan and the middle of the country allowed goods to be shipped out of the city after they arrived by railroad.
+14	
+In the western part of the United States, the main natural resources are minerals, timber, and water. The resources have been used for mining, building homes, irrigation, and use in the cities. How has the way people managed the natural resources in the West changed since the 1800’s?
+A	
+Today, people are trying to manage the use of resources to preserve them.
+B	
+Parks have been eliminated so loggers can use the forest trees and engineers can build dams.
+C	
+People buy or trade from other regions to meet their needs.
+D	
+There are no restrictions or regulations on the use of natural resources.
+
+
+",History,"the answer to the fist one is B 
+the answer to the  second one is C 
+the answer to the third one is C also  
+4. D
+5.A",5,Ambitious,4,8,https://brainly.com/question/3201525,1490031099
+"How did the 1980’s recession affect United States farmers?
+A	
+The demand for farm products increased significantly and many farms expanded.
+B	
+The recession did not impact farmers, only those living and working in urban areas.
+C	
+Demand for farm products decreased while interest rates for loans increased. Many farmers were unable to pay their loans, forcing them to leave or sell their farm.
+D	
+Since the population was rising, the demand for American farm products was high and family farms prospered.
+
+
+
+The Midwestern region of the United States is often referred to as the heartland because it is the agricultural center of the nation. What have technological advances such as drilling equipment for wells, machinery, and computers done for the Midwest?
+A	
+Technology has no impact on the Midwest
+B	
+The demand for farm products has decreased.
+C	
+Corporate farms have decreased and small family farms have increased.
+D	
+Techniques have improved making farming more productive.
+
+
+How did the arrival of European settlers change life for indigenous people on the plains?
+A	
+The arrival of settlers had no impact on the lives of indigenous people in the Plains region.
+B	
+Settlers killed nearly all the buffalo and most indigenous people were moved to reservations.
+C	
+The settlers and Native Americans used horses to hunt buffalo more effectively and carefully managing the resources.
+D	
+Settlers and the indigenous people of the Plains shared ideas and ways of doing things, continuing to always occupy the same land.
+
+
+
+505x366
+Use the Structure of Government chart to answer the question. Which statement is true about the organization of Canada’s government?
+A	
+Canada’s head of state is ceremonial. The President of the United States is head of state and government.
+B	
+Canada’s head of state is the Prime Minister and leads the majority party.
+C	
+Members of Canada’s legislature, both the House of Commons and Senate, are elected by the voters.
+D	
+The Queen of England has the same duties and responsibilities as the President of the United States.
+
+Use the Structure of Government chart above to answer the question. What is the difference in the roles of voters in Canada and the United States?
+A	
+The differences are minimal, each country votes.
+B	
+Both countries elect all members of the legislature
+C	
+Voters in the United States have a more direct role in electing government leaders.
+D	
+The head of state in both countries are elected by the voters.
+
+What best explains why Chicago’s location was important to it becoming a railroad junction?
+A	
+Chicago is where a number of railroad lines met.
+B	
+Chicago is near Detroit, the Motor City of the United States.
+C	
+Chicago is known for its ethnic diversity and lively culture.
+D	
+Chicago’s location on Lake Michigan and the middle of the country allowed goods to be shipped out of the city after they arrived by railroad.
+14	
+In the western part of the United States, the main natural resources are minerals, timber, and water. The resources have been used for mining, building homes, irrigation, and use in the cities. How has the way people managed the natural resources in the West changed since the 1800’s?
+A	
+Today, people are trying to manage the use of resources to preserve them.
+B	
+Parks have been eliminated so loggers can use the forest trees and engineers can build dams.
+C	
+People buy or trade from other regions to meet their needs.
+D	
+There are no restrictions or regulations on the use of natural resources.
+
+
+",History,"b
+ ..............................................",1,Beginner,3,2,https://brainly.com/question/3201525,1490031099
+Use the terms oracle bones and pictograph to describe the Chinese language.,Social studies,In ancient Chinese languages pictograph was used and was written on oracle bones.,4,Beginner,5,6,https://brainly.com/question/987168,1455667513
