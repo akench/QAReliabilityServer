@@ -6,7 +6,7 @@ from pprint import pprint
 # URL    Question     Subject     Answer    Ratings    Thanks   
 def get_relevant_csv_data(full_body):
     brainly_data = full_body['brainly_data']
-    
+
     answer_list = []
     for obj in brainly_data['all_answers']:
         obj['href'] = full_body['href']
@@ -21,24 +21,24 @@ def write_all_objects_csv(writer, all_answers):
     for obj in all_answers:
         print('writing')
         writer.writerow([obj['question'],
-                        obj['subject'],
-                        obj['text'],
-                        obj['rating'],
-                        obj['reputation'],
-                        obj['num_upvotes'],
-                        obj['num_thanks'],
-                        obj['href'],
-                        obj['question_timestamp']])
+                         obj['subject'],
+                         obj['text'],
+                         obj['rating'],
+                         obj['reputation'],
+                         obj['num_upvotes'],
+                         obj['num_thanks'],
+                         obj['href'],
+                         obj['question_timestamp']])
 
 def main():
     os.chdir('./collection')
     json_list_for_csv = []
     for filename in glob.glob('*.json'):
-        with open(filename, 'r') as json_file: 
+        with open(filename, 'r') as json_file:
             full_body = json.load(json_file)
             for answer in get_relevant_csv_data(full_body):
                 json_list_for_csv.append(answer)
-        
+
     os.chdir('../')
     with open('test.csv', 'w+') as csv_file:
         writer = csv.writer(csv_file)
