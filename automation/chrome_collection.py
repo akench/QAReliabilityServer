@@ -1,6 +1,5 @@
 import time
 import selenium
-import urllib.parse
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -8,31 +7,60 @@ from selenium.webdriver.common.keys import Keys
 QUESTION_LINK_SELECTOR = "//*[@id=\"search-results\"]/div[1]/div[2]/div[2]/div/article/div[1]/a/div/div/div"
 PAGINATION_LINK_SELECTOR = "//*[@id=\"search-results\"]/div[1]/div[2]/div[3]/div/span"
 QUERIES = [
-    "american history",
-    "pop culture",
-    "biology",
-    "physics",
-    "chemistry",
-    "anthropology",
-    "literature",
-    "grapes of wrath",
-    "great gatsby",
-    "calculus",
-    "plants",
-    "life",
-    "slavery",
-    "civil war",
-    "revolutionary war",
-    "anatomy",
-    "medicine",
-    "astronomy",
-    "college",
-    "heart",
-    "liver",
-    "electromagnetism",
-    "mechanics",
-    "rubik's cube",
+    "government",
+    "politics",
+    "president",
+    "food",
+    "engineering",
+    "design",
+    "fashion",
+    "house",
+    "finance",
+    "stock market",
+    "economy",
+    "social media",
+    "health",
+    "python",
+    "java",
+    "robotics",
+    "Android",
+    "Oedipus",
+    "poem",
+    "water",
+    "fire",
+    "earth",
+    "air",
+    "cell",
+    "india",
+    "united kingdom",
+    "united states",
+    "china"
+    # "american history",
+    # "pop culture",
+    # "biology",
+    # "physics",
+    # "chemistry",
+    # "anthropology",
+    # "literature",
+    # "grapes of wrath",
+    # "great gatsby",
+    # "calculus",
+    # "plants",
+    # "life",
+    # "slavery",
+    # "civil war",
+    # "revolutionary war",
+    # "anatomy",
+    # "medicine",
+    # "astronomy",
+    # "college",
+    # "heart",
+    # "liver",
+    # "electromagnetism",
+    # "mechanics",
+    # "rubik's cube",
 ]
+
 
 def visit_all(driver, site):
     """
@@ -88,6 +116,7 @@ def visit_all(driver, site):
         except Exception:
             driver.switch_to_window(driver.window_handles[0])
 
+
 def init():
     """
     Main function, creates the driver instance and visits the necessary websites
@@ -104,6 +133,7 @@ def init():
     driver = webdriver.Chrome(chrome_options=options)
     return driver
 
+
 if __name__ == "__main__":
     try:
         DRIVER = init()
@@ -114,8 +144,7 @@ if __name__ == "__main__":
 
     except selenium.common.exceptions.WebDriverException as error:
         # In the event that an error occurs, we still want to quit
-        # driver, otherwise a chromdriver instance will keep running
+        # driver, otherwise a chromedriver instance will keep running
         DRIVER.quit()
 
         raise error
-            
