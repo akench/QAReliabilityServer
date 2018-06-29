@@ -1,50 +1,121 @@
 import time
 import selenium
+import urllib.parse
 from selenium import webdriver
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 
-LINK_SELECTOR = "#search-results > div.sg-layout__content > \
-    div.sg-content-box.search-results.stream-container.sg-layout__box > \
-    div.sg-content-box__content.sg-content-box__content--spaced-bottom-large.search-results__items.js-search-items > \
-    div > article > div.sg-content-box__content > a > div > div > div"
+QUESTION_LINK_SELECTOR = "//*[@id=\"search-results\"]/div[1]/div[2]/div[2]/div/article/div[1]/a/div/div/div"
+PAGINATION_LINK_SELECTOR = "//*[@id=\"search-results\"]/div[1]/div[2]/div[3]/div/span"
 QUERIES = [
-    "history"
+    "american history",
+    "pop culture",
+    "biology",
+    "physics",
+    "chemistry",
+    "anthropology",
+    "literature",
+    "grapes of wrath",
+    "great gatsby",
+    "calculus",
+    "plants",
+    "life",
+    "slavery",
+    "civil war",
+    "revolutionary war",
+    "anatomy",
+    "medicine",
+    "astronomy",
+    "college",
+    "heart",
+    "liver",
+    "electromagnetism",
+    "mechanics",
+    "rubik's cube",
 ]
 
-def visit_all(chrome, site):
-    base_url = "https://brainly.com/app/ask?entry=top&q={}".format(site)
-    chrome.get(base_url)
-    links = chrome.find_elements_by_css_selector(LINK_SELECTOR)
-
-    for link in links:
-        link.click()
-        time.sleep(2)
-        chrome.execute_script("window.history.go(-1)")
-
-def main():
+def visit_all(driver, site):
     """
-    Main function, creates the Chrome instance and visits the necessary websites
+    Visits all links on a Brainly search page by opening each in a new tab,
+    pausing for the extension to collect data, and returning to the main
+    window to open the next link
+    """
+    base_url = "https://brainly.com/app/ask?entry=top&q={}".format(site)
+    driver.get(base_url)
+    time.sleep(3)
+
+    pages = driver.find_elements_by_xpath(PAGINATION_LINK_SELECTOR)
+    pages = pages[1:]
+    body = driver.find_element_by_tag_name('body')
+
+    for page_link in pages:
+        try:
+            if page_link.text == '':
+                continue
+
+            actions = ActionChains(driver)
+            actions.move_to_element(page_link).perform()
+            time.sleep(1)
+            actions.click(page_link).perform()
+            time.sleep(3)
+            links = body.find_elements_by_xpath(QUESTION_LINK_SELECTOR)
+
+            for link in links:
+                try:
+                    # Create an action chain to open the link in a new tab
+                    actions = ActionChains(driver)
+                    actions.move_to_element(link).perform()
+                    body.send_keys(Keys.PAGE_UP)
+                    time.sleep(1)
+                    actions.key_down(Keys.COMMAND).click(link).key_up(Keys.COMMAND).perform()
+
+                    # Switch to the new tab containing the Q/A and wait for
+                    # the extension to collect its data
+                    driver.switch_to_window(driver.window_handles[-1])
+                    time.sleep(3)
+
+                    # Close the Q/A tab
+                    driver.close()
+
+                    # Even though closing the previous tab returns us to the main
+                    # search tab, it is necessary to explicitly switch the context
+                    # back to the main tab for the links to work.
+                    driver.switch_to_window(driver.window_handles[0])
+
+                except Exception:
+                    driver.switch_to_window(driver.window_handles[0])
+
+        except Exception:
+            driver.switch_to_window(driver.window_handles[0])
+
+def init():
+    """
+    Main function, creates the driver instance and visits the necessary websites
     to collect data
     """
     # Setup options: Select the profile version to use, and load the extension
-    # into Chrome
+    # into driver
     options = webdriver.ChromeOptions()
     options.add_argument("""user-data-dir=/Users/Development/Library/
-        Application Support/Google/Chrome/Default""")
-    options.add_argument("--load-extension=../test-extension/build")
+        Application Support/Google/driver/Default""")
+    options.add_argument("--load-extension=../../test-extension/build")
 
-    # Create a Chrome instance and open up a website
-    chrome = webdriver.Chrome(chrome_options=options)
+    # Create a driver instance and open up a website
+    driver = webdriver.Chrome(chrome_options=options)
+    return driver
 
-    for query in QUERIES:
-        visit_all(chrome, query)
-
-chrome = None
 if __name__ == "__main__":
     try:
-        main()
+        DRIVER = init()
+        for query in QUERIES:
+            visit_all(DRIVER, query)
+
+        DRIVER.quit()
+
     except selenium.common.exceptions.WebDriverException as error:
         # In the event that an error occurs, we still want to quit
-        # Chrome, otherwise a chromdriver instance will keep running
-        if chrome:
-            chrome.quit()
+        # driver, otherwise a chromdriver instance will keep running
+        DRIVER.quit()
+
+        raise error
             
