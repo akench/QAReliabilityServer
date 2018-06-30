@@ -19,6 +19,9 @@ with open('input.csv', 'r',  encoding='ISO-8859-1',) as f:
 
         for row in reader:
             new_row = row
+            if len(row) < 1:
+                continue
+
             obj = FormatQuestions(row[0])
             for func in func_list:
                 method = getattr(obj, func)
