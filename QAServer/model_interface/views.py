@@ -1,6 +1,7 @@
 import json
 import random
 import string
+from random import randint
 
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse, HttpResponseBadRequest
@@ -31,7 +32,7 @@ def collect_data(request):
     else:
         print('NOT SAVING')
 
-    results = get_inference('', '')
+    results = get_inference('')
     return JsonResponse(results)
 
 def generate_report(request):
@@ -41,38 +42,21 @@ def generate_report(request):
 
     # Parse JSON body
     body = json.loads(request.body)
-    print(body)
-    try:
-        # site = body['site']
-        # url = body['url']
-        question = body['question']
-        answer = body['answer']
-        # cache = body['cache']
-    except KeyError:
-        return HttpResponseBadRequest('''Incomplete request, \
-                try again with all of the following parameters: 	\
-			\r1) site (string) : the website from which the QA originates 										\
-			\r2) url (string) : the raw url referring to the question	 										\
-			\r3) question (string) : the question being asked 													\
-			\r4) answer (string) : the answer to the question 													\
-			\r5) cache (boolean) : whether or not the report for this url should be cached''')
-
-    # Do something to get results
-    results = get_inference(question, answer)
-    return JsonResponse(results)
+    all_answers = body['brainly_data']['all_answers']
+    for answer in all_answers:
+        answer['inference'] = get_inference(answer)
+    
+    return JsonResponse({'all_answers': all_answers})
 
 
-def get_inference(question, answer):
+def get_inference(answer):
     # I don't remember what the specific statistics were, so they'll
     # be modified as necessary later.
     ret_data = {
-        'error': False,
-        'statistics': {
-            'reliability': 50,
-            'ambiguity': 25,
-            'brevity': 80,
-            'thoroughness': 0
-        }
+        'clearness': randint(0, 100),
+        'credibility': randint(0, 100),
+        'completeness': randint(0, 100),
+        'correctness': randint(0, 100)
     }
     return ret_data
 
