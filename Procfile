@@ -1,1 +1,1 @@
-web: gunicorn QAServer.wsgi --log-file -
+web: gunicorn --pythonpath QAServer QAServer.wsgi --log-file -
