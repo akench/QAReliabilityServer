@@ -1,0 +1,1 @@
+web: gunicorn QAServer/QAServer.wsgi --log-file -

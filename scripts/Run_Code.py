@@ -15,7 +15,7 @@ with open('input.csv', 'r',  encoding='ISO-8859-1',) as f:
         new_row = row
         new_row = row + protocol_list
         wr.writerow(new_row)
-        #count = 1
+        # count = 1
 
         for row in reader:
             new_row = row
