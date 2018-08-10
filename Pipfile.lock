@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "158c2f3ae0ea7d49b0a521957abaacb3c1e6921b9c6c08efb08f4e3c31d1725e"
+            "sha256": "01e63aa4b2284d38bb474a5c70abfb7cae52a64511a7141fb458666c988022f2"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -179,15 +179,6 @@
                 "sha256:682256a5b318149ca0d2a9185d365d8864a768a28db66a84a2ea946bcc426766"
             ],
             "version": "==2.3.1"
-        },
-        "pyenchant": {
-            "hashes": [
-                "sha256:e8000144e61551fcab9cd1b6fdccdded20e577e8d6d0985533f0b2b9c38fd952",
-                "sha256:b9526fc2c5f1ba0637e50200b645a7c20fb6644dbc6f6322027e7d2fbf1084a5",
-                "sha256:fc31cda72ace001da8fe5d42f11c26e514a91fa8c70468739216ddd8de64e2a0",
-                "sha256:9a66aa441535e27d228baca320f7feed1b08d0c5e6167d5e5cf455b545b7c2cd"
-            ],
-            "version": "==2.0.0"
         },
         "pyflakes": {
             "hashes": [
