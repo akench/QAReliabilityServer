@@ -2,7 +2,4 @@
 testProject/
 venv/
 
-# settings.py contains sensitive information,
-# such as DB configurations and app secret
-QAServer/QAServer/settings.py
 QAServer/QAServer/__pycache__/settings.cpython*
