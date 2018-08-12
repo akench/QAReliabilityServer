@@ -24,6 +24,7 @@ textblob = "==0.13.0"
 wrapt = "==1.10.11"
 gunicorn = "*"
 django-heroku = "*"
+autocorrect="*"
 "psycopg2" = "*"
 
 

@@ -1,7 +1,7 @@
 # download bad_words.txt from https://github.com/jared-mess/profanity-filter
-# install pyenchant for enchant library. We are using it for its dictionary.
-import re, enchant
+import re
 import language_check
+from autocorrect import spell
 
 tool = language_check.LanguageTool('en-US')
 from functools import reduce
@@ -13,7 +13,6 @@ class FormatQuestions:
     def __init__(self, input_string, bad_words_file='bad_words.txt', dictionary_type="en_US"):
         self.input_string = input_string
         self.set_bad_words(bad_words_file)
-        self.set_dictionary(dictionary_type)
 
         self.sentences = None
         self.number_of_sentences = None
@@ -32,11 +31,6 @@ class FormatQuestions:
             bad_words_file = open(bad_words_file, 'r')
             global BAD_WORDS
             BAD_WORDS = set(line.strip('\n') for line in bad_words_file)
-
-    def set_dictionary(self, dictionary_type):
-        if 'DICTIONARY' not in globals():
-            global DICTIONARY
-            DICTIONARY = enchant.Dict(dictionary_type)
 
     def get_sentences(self):
         if self.sentences == None:
@@ -152,7 +146,7 @@ class FormatQuestions:
             words_in_sentences = self.get_words_in_sentences()
             for sentence in words_in_sentences:
                 for word in sentence:
-                    if DICTIONARY.check(word) is False:
+                    if spell(word) != word:
                         result.append(word)
             self.misspelled_words = result
         return self.misspelled_words
