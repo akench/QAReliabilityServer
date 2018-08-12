@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "01e63aa4b2284d38bb474a5c70abfb7cae52a64511a7141fb458666c988022f2"
+            "sha256": "31fa6c799622ff1bf426b7b83e421a2c2b3acf8ff8a1755b2398885e75f6eb71"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -33,6 +33,12 @@
                 "sha256:fc9b582dba0366e63540982c3944a9230cbc6f303641c51483fa547dcc22393a"
             ],
             "version": "==1.6.5"
+        },
+        "autocorrect": {
+            "hashes": [
+                "sha256:b488be3f3aed9aafecd317e55d7d0be1f719c8b41c96a56abbc451700eeb9460"
+            ],
+            "version": "==0.3.0"
         },
         "dj-database-url": {
             "hashes": [
@@ -217,10 +223,10 @@
         },
         "whitenoise": {
             "hashes": [
-                "sha256:15f43b2e701821b95c9016cf469d29e2a546cb1c7dead584ba82c36f843995cf",
-                "sha256:9d81515f2b5b27051910996e1e860b1332e354d9e7bcf30c98f21dcb6713e0dd"
+                "sha256:a6f86b011675b9730f69fd69d4f54c5697d6c7a90ab06f83f784d243d9fccc02",
+                "sha256:1e206c5adfb849942ddd057e599ac472ec1a85d56ae78a5ba24f243ea46a89c5"
             ],
-            "version": "==3.3.1"
+            "version": "==4.0"
         },
         "wrapt": {
             "hashes": [
