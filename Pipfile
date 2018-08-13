@@ -26,6 +26,9 @@ gunicorn = "*"
 django-heroku = "*"
 "psycopg2" = "*"
 autocorrect = "*"
+matplotlib = "*"
+xlrd = "*"
+openpyxl = "*"
 
 
 [dev-packages]

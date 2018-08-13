@@ -7,8 +7,7 @@ tool = language_check.LanguageTool('en-US')
 from functools import reduce
 
 class FormatQuestions:
-    BAD_WORDS = set(line.strip('\n') for line in open(
-        'bad_words.txt'))  # classVariable #using corpus from: https://github.com/jared-mess/profanity-filter
+    BAD_WORDS = set(line.strip('\n') for line in open('bad_words.txt'))  # classVariable #using corpus from: https://github.com/jared-mess/profanity-filter
 
     def __init__(self, input_string, bad_words_file='bad_words.txt', dictionary_type="en_US"):
         self.input_string = input_string
@@ -164,6 +163,3 @@ class FormatQuestions:
                 return 0
         except:
             return -1
-
-
-
