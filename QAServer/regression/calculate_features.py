@@ -10,15 +10,15 @@ HEADER = ['Question', 'Average IDF', 'Entropy', 'Polarity', 'Subjectivity']
 NUMBER_OF_QUESTIONS = 1000
 
 def strip_field(text):
-    return str(text.encode('ISO-8859-1', 'strict'))     \
-                .lower()                                \
-                .replace("b'", "")                      \
-                .replace("'", "")                       \
-                .replace("?", "")                       \
-                .replace(".", "")                       \
-                .replace("!", "")                       \
-                .replace(",", "")                       \
-                .replace("<br />", "")
+    return text                 \
+            .lower()            \
+            .replace("b'", "")  \
+            .replace("'", "")   \
+            .replace("?", "")   \
+            .replace(".", "")   \
+            .replace("!", "")   \
+            .replace(",", "")   \
+            .replace("<br />", "")
 
 def get_all_tokens(text):
     text = strip_field(text)

@@ -61,7 +61,9 @@ Correct_model = pickle.load(open(Correct_filename, 'rb'))
 def test_function(X, Y, model, output_data, percentile=95):
     col = X
     ntest = output_data[output_data.columns.difference(['Answers'])]
-    ntest = pd.get_dummies(ntest)
+    print(ntest)
+    # ntest = pd.get_dummies(ntest)
+    # print(ntest)
     ntest = ntest[col]
     allTree_preds = np.stack([t.predict(ntest) for t in model.estimators_], axis = 0)
     err_down = np.round(np.percentile(allTree_preds, (100 - percentile) / 2.0  ,axis=0),2)

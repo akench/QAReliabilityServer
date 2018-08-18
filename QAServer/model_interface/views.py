@@ -24,16 +24,14 @@ def generate_report(request):
 
 def get_inference(answer):
     dataframe = get_features_df(answer)
-
-    print(dataframe)
-
     scores = get_final_scores(dataframe)
+    print(scores)
 
     ret_data = {
-        'clearness': 0,
-        'credibility': 0,
-        'completeness': 0,
-        'correctness': 0
+        'clearness': scores['Clear_1 %'][0],
+        'credibility': scores['Credible_1 %'][0],
+        'completeness': scores['Complete_1 %'][0],
+        'correctness': scores['Correct_1 %'][0]
     }
 
     return ret_data
@@ -48,15 +46,17 @@ def get_features_df(answer):
     formatter = FormatAnswer(text)
     avg_word_sentence = formatter.average_words_per_sentence()
     num_misspelled = formatter.number_of_misspelled_words()
+    bin_taboo = formatter.check_for_profanity()
     grammar_check = formatter.grammar_checking()
 
     df_data = {
+        'Answers': [answer['text']],
         'rating': [answer['rating']],
         'num_upvotes': [answer['num_upvotes']],
         'num_thanks': [answer['num_thanks']],
         'avg_word_sentence': [avg_word_sentence],
         'num_misspelled': [num_misspelled],
-        'bin_taboo': [0], # ?
+        'bin_taboo': [bin_taboo],
         'grammar_check': [grammar_check],
         'Average IDF': [IDF],
         'Entropy': [entropy],
