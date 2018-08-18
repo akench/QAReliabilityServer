@@ -7,11 +7,6 @@
 
 import numpy as np
 import pandas as pd
-
-import matplotlib
-matplotlib.use('TkAgg')
-
-import matplotlib.pyplot as plt
 import pickle
 from sklearn.linear_model import LinearRegression,LogisticRegression
 from sklearn.ensemble import RandomForestRegressor,RandomForestClassifier

@@ -1,5 +1,6 @@
 .vscode/
 testProject/
 venv/
+*bad_words.txt
 
 QAServer/QAServer/__pycache__/settings.cpython*
