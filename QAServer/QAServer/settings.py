@@ -25,7 +25,7 @@ LOCAL_SECRET = os.environ.get("UGC_SECRET_KEY", None)
 SECRET_KEY = os.environ.get("SECRET_KEY", LOCAL_SECRET)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 

@@ -24,6 +24,9 @@ def generate_report(request):
 
 def get_inference(answer):
     dataframe = get_features_df(answer)
+
+    print(dataframe)
+
     scores = get_final_scores(dataframe)
 
     ret_data = {
@@ -48,17 +51,17 @@ def get_features_df(answer):
     grammar_check = formatter.grammar_checking()
 
     df_data = {
-        'rating': answer['rating'],
-        'num_upvotes': answer['num_upvotes'],
-        'num_thanks': answer['num_thanks'],
-        'avg_word_sentence': avg_word_sentence,
-        'num_misspelled': num_misspelled,
-        'bin_taboo': 0, # ?
-        'grammar_check': grammar_check,
-        'Average IDF': IDF,
-        'Entropy': entropy,
-        'Polarity': polarity,
-        'Subjectivity': subjectivity
+        'rating': [answer['rating']],
+        'num_upvotes': [answer['num_upvotes']],
+        'num_thanks': [answer['num_thanks']],
+        'avg_word_sentence': [avg_word_sentence],
+        'num_misspelled': [num_misspelled],
+        'bin_taboo': [0], # ?
+        'grammar_check': [grammar_check],
+        'Average IDF': [IDF],
+        'Entropy': [entropy],
+        'Polarity': [polarity],
+        'Subjectivity': [subjectivity]
     }
 
     return DataFrame(data=df_data)
@@ -69,10 +72,10 @@ def get_final_scores(dataframe):
     complete_model = regression.Complete_model
     correct_model = regression.Correct_model
 
-    clear_data=test_function(regression.X_Clear, 'Clear_1', clear_model, dataframe)
-    complete_data=test_function(regression.X_Complete, 'Complete_1', complete_model, clear_data)
-    credible_data=test_function(regression.X_Credible, 'Credible_1', credible_model, complete_data)
-    correct_data=test_function(regression.X_Correct, 'Correct_1', correct_model, credible_data)
+    clear_data=regression.test_function(regression.X_Clear, 'Clear_1', clear_model, dataframe)
+    complete_data=regression.test_function(regression.X_Complete, 'Complete_1', complete_model, clear_data)
+    credible_data=regression.test_function(regression.X_Credible, 'Credible_1', credible_model, complete_data)
+    correct_data=regression.test_function(regression.X_Correct, 'Correct_1', correct_model, credible_data)
 
     regression.calc_percent(correct_data,'Correct_1')
     regression.calc_percent(correct_data,'Credible_1')

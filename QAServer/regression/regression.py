@@ -39,13 +39,13 @@ X_Correct =     ['rating','num_upvotes', 'num_thanks','Polarity']
 
 # In[79]:
 
-Clear_filename='./Clear_model.sav'
+Clear_filename='QAServer/regression/Clear_model.sav'
 Clear_model = pickle.load(open(Clear_filename, 'rb'))
-Credible_filename='./Credible_model.sav'
+Credible_filename='QAServer/regression/Credible_model.sav'
 Credible_model = pickle.load(open(Credible_filename, 'rb'))
-Complete_filename='./Complete_model.sav'
+Complete_filename='QAServer/regression/Complete_model.sav'
 Complete_model = pickle.load(open(Complete_filename, 'rb'))
-Correct_filename='./Correct_model.sav'
+Correct_filename='QAServer/regression/Correct_model.sav'
 Correct_model = pickle.load(open(Correct_filename, 'rb'))
 
 

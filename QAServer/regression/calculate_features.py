@@ -49,7 +49,7 @@ def get_all_scores(text, num_questions=1, all_tokens=None):
 
     text = strip_field(text)
     tokenized_sents = word_tokenize(text)
-    polarity, subjectivity = get_polarity_subjectivity(field)
+    polarity, subjectivity = get_polarity_subjectivity(text)
 
     sum = 0
     i = 0

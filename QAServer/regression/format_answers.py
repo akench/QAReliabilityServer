@@ -5,7 +5,7 @@ from autocorrect import spell
 from functools import reduce
 
 # classVariable #using corpus from: https://github.com/jared-mess/profanity-filter
-BAD_WORDS = set(line.strip('\n') for line in open('bad_words.txt'))
+BAD_WORDS = set(line.strip('\n') for line in open('QAServer/regression/bad_words.txt'))
 TOOL = language_check.LanguageTool('en-US')
 
 class FormatAnswer:
