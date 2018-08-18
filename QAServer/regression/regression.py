@@ -35,6 +35,20 @@ X_Complete =    ['rating','num_upvotes', 'num_thanks','Average IDF',
 X_Correct =     ['rating','num_upvotes', 'num_thanks','Polarity']
 
 
+# ### Below script loads the machine learning models into memory
+
+# In[79]:
+
+Clear_filename='./Clear_model.sav'
+Clear_model = pickle.load(open(Clear_filename, 'rb'))
+Credible_filename='./Credible_model.sav'
+Credible_model = pickle.load(open(Credible_filename, 'rb'))
+Complete_filename='./Complete_model.sav'
+Complete_model = pickle.load(open(Complete_filename, 'rb'))
+Correct_filename='./Correct_model.sav'
+Correct_model = pickle.load(open(Correct_filename, 'rb'))
+
+
 # <b> This function has following arguments: </b>
 # 1. X --> X takes a list of columns for each 4 outputs like Clear,Complete etc
 # 2. Y --> It is used to name the variables for each 4 outputs like Clear,Complete etc
@@ -87,20 +101,6 @@ if __name__ == "__main__":
 
     path=input('Enter Path for the data: ')
     # eg: C:/Users/Akshat/Downloads/
-
-
-    # ### Below script loads the machine learning models into memory
-
-    # In[79]:
-
-    Clear_filename=path+'Clear_model.sav'
-    Clear_model = pickle.load(open(Clear_filename, 'rb'))
-    Credible_filename=path+'Credible_model.sav'
-    Credible_model = pickle.load(open(Credible_filename, 'rb'))
-    Complete_filename=path+'Complete_model.sav'
-    Complete_model = pickle.load(open(Complete_filename, 'rb'))
-    Correct_filename=path+'Correct_model.sav'
-    Correct_model = pickle.load(open(Correct_filename, 'rb'))
 
     # ## Importing Test Data
     # #### Format to be used to load the testing data

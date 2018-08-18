@@ -1,39 +1,8 @@
 import json
-import random
-import string
-from random import randint
-
-from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse, HttpResponseBadRequest
-from caching.models import Report
-
-hrefs_collected = set()
-
-
-def collect_data(request):
-    if request.method != 'POST':
-        return HttpResponseBadRequest('''This endpoint only accepts POST requests. \
-			\rTry again with a JSON payload.''')
-    body = json.loads(request.body)
-    href = body['href']
-
-    if href not in hrefs_collected and has_valid_answers(body):
-        # Create the filename from the first ten words of the question
-        filename = 'collection/'
-        filename += '_'.join(body['brainly_data']
-                             ['question'].split(maxsplit=10)[:10])
-        # filename = ''.join(random.choices(string.ascii_uppercase + string.digits, k=15))
-        filename += '.json'
-        with open(filename, 'w') as f:
-            json.dump(body, f)
-        hrefs_collected.add(href)
-
-        print('SAVED FILE: ' + filename)
-    else:
-        print('NOT SAVING')
-
-    results = get_inference('')
-    return JsonResponse(results)
+from pandas import DataFrame
+from regression import regression, calculate_features
+from regression.format_answers import FormatAnswer
+from django.http import JsonResponse, HttpResponseBadRequest
 
 def generate_report(request):
     if request.method != 'POST':
@@ -49,31 +18,67 @@ def generate_report(request):
     return JsonResponse({'all_answers': all_answers})
 
 
+#########################
+#   HELPER FUNCTIONS    #
+#########################
+
 def get_inference(answer):
-    # I don't remember what the specific statistics were, so they'll
-    # be modified as necessary later.
+    dataframe = get_features_df(answer)
+    scores = get_final_scores(dataframe)
+
     ret_data = {
-        'clearness': randint(0, 100),
-        'credibility': randint(0, 100),
-        'completeness': randint(0, 100),
-        'correctness': randint(0, 100)
+        'clearness': 0,
+        'credibility': 0,
+        'completeness': 0,
+        'correctness': 0
     }
+
     return ret_data
 
-def has_valid_answers(request_body):
-    """
-    Checks if there are any answers that are not
-    just one/few-word answers.
-    """
+def get_features_df(answer):
+    ## NECESSARY FEATURES from FormatAnswer:
+    # avg_word_sentence, num_misspelled, bin_taboo, grammar_check
 
-    answers = request_body['brainly_data']['all_answers']
+    text = answer['text']
+    _, IDF, entropy, polarity, subjectivity = calculate_features.get_all_scores(text)
+    
+    formatter = FormatAnswer(text)
+    avg_word_sentence = formatter.average_words_per_sentence()
+    num_misspelled = formatter.number_of_misspelled_words()
+    grammar_check = formatter.grammar_checking()
 
-    for answer in answers:
-        answer = answer['text'].strip()
-        print(answer)
-        if answer.count(" ") > 2:
-            return True
+    df_data = {
+        'rating': answer['rating'],
+        'num_upvotes': answer['num_upvotes'],
+        'num_thanks': answer['num_thanks'],
+        'avg_word_sentence': avg_word_sentence,
+        'num_misspelled': num_misspelled,
+        'bin_taboo': 0, # ?
+        'grammar_check': grammar_check,
+        'Average IDF': IDF,
+        'Entropy': entropy,
+        'Polarity': polarity,
+        'Subjectivity': subjectivity
+    }
 
-    # Return false to indicate that the entire question is
-    # useless since there is no useful data
-    return False
+    return DataFrame(data=df_data)
+
+def get_final_scores(dataframe):
+    clear_model = regression.Clear_model
+    credible_model = regression.Credible_model
+    complete_model = regression.Complete_model
+    correct_model = regression.Correct_model
+
+    clear_data=test_function(regression.X_Clear, 'Clear_1', clear_model, dataframe)
+    complete_data=test_function(regression.X_Complete, 'Complete_1', complete_model, clear_data)
+    credible_data=test_function(regression.X_Credible, 'Credible_1', credible_model, complete_data)
+    correct_data=test_function(regression.X_Correct, 'Correct_1', correct_model, credible_data)
+
+    regression.calc_percent(correct_data,'Correct_1')
+    regression.calc_percent(correct_data,'Credible_1')
+    regression.calc_percent(correct_data,'Complete_1')
+    regression.calc_percent(correct_data,'Clear_1')
+
+    final_data = correct_data[[ 'Clear_1 %', 'Credible_1 %', 'Complete_1 %', 'Correct_1 %' ]]
+
+    return final_data

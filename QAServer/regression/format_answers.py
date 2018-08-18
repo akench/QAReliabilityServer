@@ -2,16 +2,17 @@
 import re
 import language_check
 from autocorrect import spell
-
-tool = language_check.LanguageTool('en-US')
 from functools import reduce
 
-class FormatQuestions:
-    BAD_WORDS = set(line.strip('\n') for line in open('bad_words.txt'))  # classVariable #using corpus from: https://github.com/jared-mess/profanity-filter
+# classVariable #using corpus from: https://github.com/jared-mess/profanity-filter
+BAD_WORDS = set(line.strip('\n') for line in open('bad_words.txt'))
+TOOL = language_check.LanguageTool('en-US')
 
-    def __init__(self, input_string, bad_words_file='bad_words.txt', dictionary_type="en_US"):
+class FormatAnswer:
+
+    def __init__(self, input_string):
         self.input_string = input_string
-        self.set_bad_words(bad_words_file)
+        # self.set_bad_words(bad_words_file)
 
         self.sentences = None
         self.number_of_sentences = None
@@ -155,7 +156,7 @@ class FormatQuestions:
 
     def grammar_checking(self):
         try:
-            matches = tool.check(self.input_string)
+            matches = TOOL.check(self.input_string)
             # return len(matches)
             if len(matches) == 0:
                 return 1
