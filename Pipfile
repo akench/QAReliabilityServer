@@ -29,6 +29,9 @@ autocorrect = "*"
 matplotlib = "*"
 xlrd = "*"
 openpyxl = "*"
+numpy = "*"
+pandas = "*"
+sklearn = "*"
 
 
 [dev-packages]
