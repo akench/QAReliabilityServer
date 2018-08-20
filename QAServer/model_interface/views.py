@@ -25,8 +25,7 @@ def generate_report(request):
 def get_inference(answer):
     dataframe = get_features_df(answer)
     scores = get_final_scores(dataframe)
-    print(scores)
-
+    
     ret_data = {
         'clearness': scores['Clear_1 %'][0],
         'credibility': scores['Credible_1 %'][0],
@@ -34,7 +33,17 @@ def get_inference(answer):
         'correctness': scores['Correct_1 %'][0]
     }
 
+    ret_data['overall'] = compute_overall_score(ret_data)
+
     return ret_data
+
+def compute_overall_score(scores):
+    clear = scores['clearness']
+    credible = scores['credibility']
+    complete = scores['completeness']
+    correct = scores['correctness']
+
+    return (clear + credible + complete + correct) / 4
 
 def get_features_df(answer):
     ## NECESSARY FEATURES from FormatAnswer:
