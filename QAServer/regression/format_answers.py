@@ -1,12 +1,12 @@
 # download bad_words.txt from https://github.com/jared-mess/profanity-filter
 import re
-import language_check
+# import language_check
 from autocorrect import spell
 from functools import reduce
 
 # classVariable #using corpus from: https://github.com/jared-mess/profanity-filter
-BAD_WORDS = set(line.strip('\n') for line in open('QAServer/regression/bad_words.txt'))
-TOOL = language_check.LanguageTool('en-US')
+BAD_WORDS = set(line.strip('\n') for line in open('bad_words.txt'))
+# TOOL = language_check.LanguageTool('en-US')
 
 class FormatAnswer:
 
@@ -154,13 +154,13 @@ class FormatAnswer:
     def number_of_misspelled_words(self):
         return len(self.get_misspelled_words())
 
-    def grammar_checking(self):
-        try:
-            matches = TOOL.check(self.input_string)
-            # return len(matches)
-            if len(matches) == 0:
-                return 1
-            else:
-                return 0
-        except:
-            return -1
+    # def grammar_checking(self):
+    #     try:
+    #         matches = TOOL.check(self.input_string)
+    #         # return len(matches)
+    #         if len(matches) == 0:
+    #             return 1
+    #         else:
+    #             return 0
+    #     except:
+    #         return -1

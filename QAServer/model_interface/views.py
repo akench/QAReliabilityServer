@@ -3,6 +3,7 @@ from pandas import DataFrame
 from regression import regression, calculate_features
 from regression.format_answers import FormatAnswer
 from django.http import JsonResponse, HttpResponseBadRequest
+from model_interface.scrapers import AnswerbagScraper
 
 def generate_report(request):
     if request.method != 'POST':
@@ -10,13 +11,21 @@ def generate_report(request):
 			\rTry again with a JSON payload.''')
 
     # Parse JSON body
+    all_answers = None
     body = json.loads(request.body)
-    all_answers = body['brainly_data']['all_answers']
-    for answer in all_answers:
-        answer['inference'] = get_inference(answer)
-    
-    return JsonResponse({'all_answers': all_answers})
+    if body['brainly_data']:
+        all_answers = body['brainly_data']['all_answers']
+        for answer in all_answers:
+            answer['inference'] = get_inference(answer)
+    elif body['answerbag_data']:
+        all_answers = body['answerbag_data']['all_answers']
+        for answer in all_answers:
+            scraper = AnswerbagScraper(answer['username'])
+            answer['user_followers'], answer['user_following'] = scraper.get_user_stats()
+    else:
+        pass
 
+    return JsonResponse({'all_answers': all_answers})
 
 #########################
 #   HELPER FUNCTIONS    #
