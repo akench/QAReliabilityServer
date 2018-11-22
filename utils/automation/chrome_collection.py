@@ -1,120 +1,69 @@
 import time
 import selenium
+from enum import Enum
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-QUESTION_LINK_SELECTOR = "//*[@id=\"search-results\"]/div[1]/div[2]/div[2]/div/article/div[1]/a/div/div/div"
-PAGINATION_LINK_SELECTOR = "//*[@id=\"search-results\"]/div[1]/div[2]/div[3]/div/span"
-QUERIES = [
-    "government",
-    "politics",
-    "president",
-    "food",
-    "engineering",
-    "design",
-    "fashion",
-    "house",
-    "finance",
-    "stock market",
-    "economy",
-    "social media",
-    "health",
-    "python",
-    "java",
-    "robotics",
-    "Android",
-    "Oedipus",
-    "poem",
-    "water",
-    "fire",
-    "earth",
-    "air",
-    "cell",
-    "india",
-    "united kingdom",
-    "united states",
-    "china"
-    # "american history",
-    # "pop culture",
-    # "biology",
-    # "physics",
-    # "chemistry",
-    # "anthropology",
-    # "literature",
-    # "grapes of wrath",
-    # "great gatsby",
-    # "calculus",
-    # "plants",
-    # "life",
-    # "slavery",
-    # "civil war",
-    # "revolutionary war",
-    # "anatomy",
-    # "medicine",
-    # "astronomy",
-    # "college",
-    # "heart",
-    # "liver",
-    # "electromagnetism",
-    # "mechanics",
-    # "rubik's cube",
-]
+class CssSelectors(Enum):
+    StackExchange = { "question": "", "pagination": "" }
+    OldReddit = { "question": "", "pagination": "" }
+    Answers = { "question": "", "pagination": "" }
+    Brainly = { 
+        "question": "div.sg-content-box__content > a", 
+        "pagination": "div:nth-child(12) > span > div > svg" 
+    }
 
-
-def visit_all(driver, site):
+def visit_all(
+        driver, 
+        base_url, 
+        links_start=0,
+        links_end=None,
+        selector=CssSelectors.StackExchange, 
+        query=None
+    ):
     """
     Visits all links on a Brainly search page by opening each in a new tab,
     pausing for the extension to collect data, and returning to the main
     window to open the next link
     """
-    base_url = "https://brainly.com/app/ask?entry=top&q={}".format(site)
-    driver.get(base_url)
+    request_url = base_url.format(query) if query else base_url
+    driver.get(request_url)
     time.sleep(3)
-
-    pages = driver.find_elements_by_xpath(PAGINATION_LINK_SELECTOR)
-    pages = pages[1:]
     body = driver.find_element_by_tag_name('body')
 
-    for page_link in pages:
-        try:
-            if page_link.text == '':
-                continue
+    for _ in range(5):        
+        links = body.find_elements_by_css_selector(selector.value["question"])
+        links = links[links_start:links_end]
+        print(len(links))
 
+        for link in links:
+            # Create an action chain to open the link in a new tab
             actions = ActionChains(driver)
-            actions.move_to_element(page_link).perform()
+            actions.move_to_element(link).perform()
+            body.send_keys(Keys.PAGE_UP)
             time.sleep(1)
-            actions.click(page_link).perform()
+            actions.key_down(Keys.COMMAND).click(link).key_up(Keys.COMMAND).perform()
+
+            # Switch to the new tab containing the Q/A and wait for
+            # the extension to collect its data
+            driver.switch_to.window(driver.window_handles[-1])
             time.sleep(3)
-            links = body.find_elements_by_xpath(QUESTION_LINK_SELECTOR)
 
-            for link in links:
-                try:
-                    # Create an action chain to open the link in a new tab
-                    actions = ActionChains(driver)
-                    actions.move_to_element(link).perform()
-                    body.send_keys(Keys.PAGE_UP)
-                    time.sleep(1)
-                    actions.key_down(Keys.COMMAND).click(link).key_up(Keys.COMMAND).perform()
+            # Close the Q/A tab
+            driver.close()
 
-                    # Switch to the new tab containing the Q/A and wait for
-                    # the extension to collect its data
-                    driver.switch_to_window(driver.window_handles[-1])
-                    time.sleep(3)
+            # Even though closing the previous tab returns us to the main
+            # search tab, it is necessary to explicitly switch the context
+            # back to the main tab for the links to work.
+            driver.switch_to.window(driver.window_handles[0])
 
-                    # Close the Q/A tab
-                    driver.close()
-
-                    # Even though closing the previous tab returns us to the main
-                    # search tab, it is necessary to explicitly switch the context
-                    # back to the main tab for the links to work.
-                    driver.switch_to_window(driver.window_handles[0])
-
-                except Exception:
-                    driver.switch_to_window(driver.window_handles[0])
-
-        except Exception:
-            driver.switch_to_window(driver.window_handles[0])
+        paginator = driver.find_element_by_css_selector(selector.value["pagination"])
+        actions = ActionChains(driver)
+        actions.move_to_element(paginator).perform()
+        time.sleep(1)
+        actions.click(paginator).perform()
+        time.sleep(3)
 
 
 def init():
@@ -125,20 +74,23 @@ def init():
     # Setup options: Select the profile version to use, and load the extension
     # into driver
     options = webdriver.ChromeOptions()
-    options.add_argument("""user-data-dir=/Users/Development/Library/
-        Application Support/Google/driver/Default""")
-    options.add_argument("--load-extension=../../test-extension/build")
+    options.add_argument("--load-extension=../../../cq-frontends/cq-extension/build")
 
     # Create a driver instance and open up a website
-    driver = webdriver.Chrome(chrome_options=options)
+    driver = webdriver.Chrome(options=options)
     return driver
 
 
 if __name__ == "__main__":
     try:
         DRIVER = init()
-        for query in QUERIES:
-            visit_all(DRIVER, query)
+        visit_all(
+            DRIVER, 
+            "https://brainly.com/app/ask?entry=top&q={}", 
+            links_end=-1,
+            selector=CssSelectors.Brainly,
+            query="government"
+        )
 
         DRIVER.quit()
 
