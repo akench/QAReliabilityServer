@@ -16,32 +16,32 @@ from sklearn import model_selection
 
 
 # In[72]:
+class BrainlyModels():
+    # This is used to get the column names to be used for the testing data
+    X_Clear =       ['rating', 'num_upvotes', 'avg_word_sentence', 'num_misspelled', 
+                    'bin_taboo', 'grammar_check', 'Subjectivity']
 
-# This is used to get the column names to be used for the testing data
-X_Clear =       ['rating', 'num_upvotes', 'avg_word_sentence', 'num_misspelled', 
-                'bin_taboo', 'grammar_check', 'Subjectivity']
+    X_Credible =    ['rating','num_thanks','avg_word_sentence', 'num_misspelled',
+                    'bin_taboo','Polarity']
 
-X_Credible =    ['rating','num_thanks','avg_word_sentence', 'num_misspelled',
-                'bin_taboo','Polarity']
+    X_Complete =    ['rating','num_upvotes', 'num_thanks','Average IDF', 
+                    'Entropy', 'Polarity', 'Subjectivity']
 
-X_Complete =    ['rating','num_upvotes', 'num_thanks','Average IDF', 
-                'Entropy', 'Polarity', 'Subjectivity']
-
-X_Correct =     ['rating','num_upvotes', 'num_thanks','Polarity']
+    X_Correct =     ['rating','num_upvotes', 'num_thanks','Polarity']
 
 
-# ### Below script loads the machine learning models into memory
+    # ### Below script loads the machine learning models into memory
 
-# In[79]:
+    # In[79]:
 
-Clear_filename='QAServer/regression/Clear_model.sav'
-Clear_model = pickle.load(open(Clear_filename, 'rb'))
-Credible_filename='QAServer/regression/Credible_model.sav'
-Credible_model = pickle.load(open(Credible_filename, 'rb'))
-Complete_filename='QAServer/regression/Complete_model.sav'
-Complete_model = pickle.load(open(Complete_filename, 'rb'))
-Correct_filename='QAServer/regression/Correct_model.sav'
-Correct_model = pickle.load(open(Correct_filename, 'rb'))
+    Clear_filename='QAServer/regression/models/brainly/Clear_model.sav'
+    Clear_model = pickle.load(open(Clear_filename, 'rb'))
+    Credible_filename='QAServer/regression/models/brainly/Credible_model.sav'
+    Credible_model = pickle.load(open(Credible_filename, 'rb'))
+    Complete_filename='QAServer/regression/models/brainly/Complete_model.sav'
+    Complete_model = pickle.load(open(Complete_filename, 'rb'))
+    Correct_filename='QAServer/regression/models/brainly/Correct_model.sav'
+    Correct_model = pickle.load(open(Correct_filename, 'rb'))
 
 
 # <b> This function has following arguments: </b>

@@ -33,5 +33,7 @@ scipy = "*"
 language-tool = "==0.3"
 "beautifulsoup4" = "*"
 "html5lib" = "*"
+pipfile = "*"
+requests = "*"
 
 [dev-packages]
