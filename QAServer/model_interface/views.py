@@ -3,9 +3,10 @@ from enum import Enum
 from pandas import DataFrame
 from regression import regression, calculate_features
 from regression.format_answers import FormatAnswer
-from model_interface.df_constructors.BrainlyConstructor import BrainlyConstructor
 from django.http import JsonResponse, HttpResponseBadRequest
 from model_interface.scrapers import AnswerbagScraper
+from model_interface.df_constructors.BrainlyConstructor import BrainlyConstructor
+from model_interface.df_constructors.AnswerbagConstructor import AnswerbagConstructor
 
 class SiteType(Enum):
     Brainly = 0
@@ -17,20 +18,18 @@ def generate_report(request):
 			\rTry again with a JSON payload.''')
 
     # Parse JSON body
-    print('got request')
     all_answers = None
     body = json.loads(request.body)
-    if body['brainly_data']:
+    if 'brainly_data' in body:
         all_answers = body['brainly_data']['all_answers']
         for answer in all_answers:
-            answer['inference'] = get_inference(answer)
-    elif body['answerbag_data']:
+            answer['inference'] = get_inference(answer, site_type=SiteType.Brainly)
+    elif 'answerbag_data' in body:
         all_answers = body['answerbag_data']['all_answers']
         for answer in all_answers:
-            scraper = AnswerbagScraper(answer['username'])
-            answer['user_followers'], answer['user_following'] = scraper.get_user_stats()
-    else:
-        pass
+            # scraper = AnswerbagScraper(answer['username'])
+            # answer['user_followers'], answer['user_following'] = scraper.get_user_stats()
+            answer['inference'] = get_inference(answer, site_type=SiteType.Answerbag)
 
     return JsonResponse({'all_answers': all_answers})
 
@@ -44,8 +43,8 @@ def get_inference(answer, site_type=SiteType.Brainly):
         dataframe = BrainlyConstructor(answer).get_features_df()
         scores = get_final_scores(dataframe, models=regression.BrainlyModels)
     elif site_type == SiteType.Answerbag:
-        dataframe = BrainlyConstructor(answer).get_features_df()
-        scores = get_final_scores(dataframe, models=regression.BrainlyModels)
+        dataframe = AnswerbagConstructor(answer).get_features_df()
+        scores = get_final_scores(dataframe, models=regression.AnswerbagModels)
     
     ret_data = {
         'clearness': scores['Clear_1 %'][0],
