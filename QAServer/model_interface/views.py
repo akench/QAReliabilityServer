@@ -1,16 +1,11 @@
 import json
 from enum import Enum
 from pandas import DataFrame
-from regression import regression, calculate_features
+from regression import calculate_features
+from regression.CQtool import get_regression_scores
 from regression.format_answers import FormatAnswer
 from django.http import JsonResponse, HttpResponseBadRequest
 from model_interface.scrapers import AnswerbagScraper
-from model_interface.df_constructors.BrainlyConstructor import BrainlyConstructor
-from model_interface.df_constructors.AnswerbagConstructor import AnswerbagConstructor
-
-class SiteType(Enum):
-    Brainly = 0
-    Answerbag = 1
 
 def generate_report(request):
     if request.method != 'POST':
@@ -18,69 +13,58 @@ def generate_report(request):
 			\rTry again with a JSON payload.''')
 
     # Parse JSON body
-    all_answers = None
     body = json.loads(request.body)
-    if 'brainly_data' in body:
-        all_answers = body['brainly_data']['all_answers']
-        for answer in all_answers:
-            answer['inference'] = get_inference(answer, site_type=SiteType.Brainly)
-    elif 'answerbag_data' in body:
-        all_answers = body['answerbag_data']['all_answers']
-        for answer in all_answers:
-            # scraper = AnswerbagScraper(answer['username'])
-            # answer['user_followers'], answer['user_following'] = scraper.get_user_stats()
-            answer['inference'] = get_inference(answer, site_type=SiteType.Answerbag)
+    all_answers = body['scraped']['all_answers']
+    for answer in all_answers:
+        answer['inference'] = get_inference(answer)
 
+    print('done, returning')
     return JsonResponse({'all_answers': all_answers})
 
 #########################
 #   HELPER FUNCTIONS    #
 #########################
 
-def get_inference(answer, site_type=SiteType.Brainly):
-    scores = None
-    if site_type == SiteType.Brainly:
-        dataframe = BrainlyConstructor(answer).get_features_df()
-        scores = get_final_scores(dataframe, models=regression.BrainlyModels)
-    elif site_type == SiteType.Answerbag:
-        dataframe = AnswerbagConstructor(answer).get_features_df()
-        scores = get_final_scores(dataframe, models=regression.AnswerbagModels)
+def get_inference(answer):
+    dataframe = get_features_df(answer)
+    scores = get_regression_scores(dataframe)
+
+    print(scores)
+    return scores
+
+def get_features_df(answer):
+    ## NECESSARY FEATURES from FormatAnswer:
+    # avg_word_sentence, num_misspelled, bin_taboo, grammar_check
+    text = answer['content']
+    _, IDF, entropy, polarity, subjectivity = calculate_features.get_all_scores(text)
     
-    ret_data = {
-        'clearness': scores['Clear_1 %'][0],
-        'credibility': scores['Credible_1 %'][0],
-        'completeness': scores['Complete_1 %'][0],
-        'correctness': scores['Correct_1 %'][0]
+    formatter = FormatAnswer(text)
+    df_data = {
+        'Content': [ text ],
+        'Author': [ answer['author'] ],
+        'Date': [ 0 ],
+        'info_content': [ answer['info_content'] ],
+        'info_author': [ answer['info_author'] ],
+        'grammar_check': [ 0 ],
+        'Average IDF': [ IDF ],
+        'Entropy': [ entropy ],
+        'Polarity': [ polarity ],
+        'Subjectivity': [ subjectivity ]
     }
-    ret_data['overall'] = compute_overall_score(ret_data)
-    print(ret_data)
 
-    return ret_data
+    protocol_list = ['num_words', 'num_characters', 'num_misspelled', 'bin_start_interrogative', 'bin_end_qmark',
+        'num_interrogative', 'bin_start_small', 'avg_word_sentence', 'num_sentences', 'bin_url',
+        'readability_score', 'num_punctuations', 'bin_taboo'] # 'grammar_check'
+    formatanswers_func_list = ['get_total_words', 'get_total_number_of_characters', 'number_of_misspelled_words',
+        'check_interrogative_start', 'check_question_mark_end', 'number_of_interrogative_words',
+        'check_small_letter_start', 'average_words_per_sentence', 'get_number_of_sentences',
+        'check_if_url_present', 'get_readability_score', 'number_of_punctuation_marks', 'check_for_profanity'] #'grammar_check']
 
-def compute_overall_score(scores):
-    clear = scores['clearness']
-    credible = scores['credibility']
-    complete = scores['completeness']
-    correct = scores['correctness']
+    for index, method_name in enumerate(formatanswers_func_list):
+        runnable_method = getattr(formatter, method_name)
+        df_data[protocol_list[index]] = [ float(runnable_method()) ]
 
-    return (clear + credible + complete + correct) / 4
+    from pprint import pprint
+    # pprint(df_data)
 
-def get_final_scores(dataframe, models=regression.BrainlyModels):
-    clear_model = models.Clear_model
-    credible_model = models.Credible_model
-    complete_model = models.Complete_model
-    correct_model = models.Correct_model
-
-    clear_data=regression.test_function(models.X_Clear, 'Clear_1', clear_model, dataframe)
-    complete_data=regression.test_function(models.X_Complete, 'Complete_1', complete_model, clear_data)
-    credible_data=regression.test_function(models.X_Credible, 'Credible_1', credible_model, complete_data)
-    correct_data=regression.test_function(models.X_Correct, 'Correct_1', correct_model, credible_data)
-
-    regression.calc_percent(correct_data,'Correct_1')
-    regression.calc_percent(correct_data,'Credible_1')
-    regression.calc_percent(correct_data,'Complete_1')
-    regression.calc_percent(correct_data,'Clear_1')
-
-    final_data = correct_data[[ 'Clear_1 %', 'Credible_1 %', 'Complete_1 %', 'Correct_1 %' ]]
-
-    return final_data
+    return DataFrame(data=df_data)

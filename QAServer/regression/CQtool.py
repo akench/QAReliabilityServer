@@ -14,18 +14,18 @@ import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Open up the file containing training data
-xls=pd.ExcelFile('./t.xlsx')
+xls=pd.ExcelFile('QAServer/regression/t.xlsx')
 training = pd.read_excel(xls)
 del training['Content']
 
 # Determine which pieces of data will be used for each theoretical construct
 Clear=training[['Author', 'avg_word_sentence', 'num_misspelled', 
 'bin_taboo', 'grammar_check', 'Subjectivity', 'Clear_l']].dropna()
-Credible=training[[ 'Date', 'info _author', 'avg_word_sentence', 'num_misspelled', 
+Credible=training[[ 'Date', 'info_author', 'avg_word_sentence', 'num_misspelled', 
 'bin_taboo', 'Polarity', 'Credible_l']].dropna()
-Complete=training[['info _author','info_content','Average IDF', 'Entropy', 'Polarity',
+Complete=training[['info_author','info_content','Average IDF', 'Entropy', 'Polarity',
        'Subjectivity', 'Complete_l']].dropna()
-Correct=training[['info _author','Polarity', 'grammar_check', 'num_misspelled', 'Correct_l']].dropna()
+Correct=training[['info_author','Polarity', 'grammar_check', 'num_misspelled', 'Correct_l']].dropna()
 
 # Perform some pre-processing on the data and separate out the 
 # data that will be used in each training phase
@@ -93,7 +93,7 @@ clear_model, credible_model, complete_model, correct_model = train_models()
 
 def test_func(X, Y, model, op, percentile=95):
     col=X.columns
-    ntest=test[test.columns.difference(['Answers'])]
+    ntest=op[op.columns.difference(['Answers'])]
     ntest=pd.get_dummies(ntest)
     ntest=ntest[col]
     
@@ -122,11 +122,12 @@ def test_func(X, Y, model, op, percentile=95):
 def calc_range(df,text):
     ma=max(df[text])
     mi=min(df[text])
-    r = ma - mi
-    correctedStartValue = df[text] - mi
+    a=text+'_down'
+    b=text+'_up'
+    r = df[b] - df[a]
+    #correctedStartValue = df[text] - df[]
     col=text+' %'
-    df[col] = (correctedStartValue * 100) / r
-
+    df[col] = (round(r,2) * 100) / df[b]
 
 
 def perform_regression(initial_data):
@@ -146,6 +147,8 @@ def perform_regression(initial_data):
     # Perform the final regression with regards to completeness
     final = test_func(X_Correct,'Correct_1',correct_model,complete_data)
 
+    # print('before calc', final)
+
     # In[120]:
     # Turn the numbers generated from regressions into 
     # human-understable percentages
@@ -157,11 +160,19 @@ def perform_regression(initial_data):
     return final
 
 def get_regression_scores(df):
+    results = perform_regression(df)
+
+    clearness = results['Clear_1 %'][0]
+    credibility = results['Credible_1 %'][0]
+    completeness = results['Complete_1 %'][0]
+    correctness = results['Correct_1 %'][0]
+
     return {
-        'clearness': df['Clear_1 %'][0],
-        'credibility': df['Credible_1 %'][0],
-        'completeness': df['Complete_1 %'][0],
-        'correctness': df['Correct_1 %'][0]
+        'clearness': clearness,
+        'credibility': credibility,
+        'completeness': completeness,
+        'correctness': correctness,
+        'overall': (clearness + credibility + completeness + correctness) / 4
     }
 
 
@@ -170,10 +181,9 @@ if __name__ == "__main__":
     # Read in test data
     test=pd.read_excel('./test.xlsx')
 
-    final = perform_regression(test)
-    scores = get_regression_scores(final)
+    scores = get_regression_scores(test)
     print(scores)
 
     # In[123]:
     # Output the final results of testing to an Excel file
-    final.to_excel('./output.xlsx',index=False)
+    # final.to_excel('./output.xlsx',index=False)

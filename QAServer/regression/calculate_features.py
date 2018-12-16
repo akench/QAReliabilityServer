@@ -70,7 +70,7 @@ def get_all_scores(text, num_questions=1, all_tokens=None):
     else:
         idf = -9
 
-    return text, idf, H, polarity, subjectivity
+    return text, float(idf), H, polarity, subjectivity
 
 if __name__ == "__main__":
     All_TOKENS = get_all_tokens_from_file()
