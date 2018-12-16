@@ -45,7 +45,6 @@ def get_features_df(answer):
         'Date': [ 0 ],
         'info_content': [ answer['info_content'] ],
         'info_author': [ answer['info_author'] ],
-        'grammar_check': [ 0 ],
         'Average IDF': [ IDF ],
         'Entropy': [ entropy ],
         'Polarity': [ polarity ],
