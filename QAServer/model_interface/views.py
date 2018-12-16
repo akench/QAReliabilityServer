@@ -63,7 +63,4 @@ def get_features_df(answer):
         runnable_method = getattr(formatter, method_name)
         df_data[protocol_list[index]] = [ float(runnable_method()) ]
 
-    from pprint import pprint
-    # pprint(df_data)
-
     return DataFrame(data=df_data)
